@@ -1,0 +1,37 @@
+{
+  "_comment": "Notion page + database IDs for NeetiQ Autopilot v2. Created 2026-04-17 during v1 -> v2 migration. Agents read this at startup to resolve the brain locations.",
+  "workspace_parent": {
+    "NeetiQ HQ": "335d0197-11ad-81fc-a980-dcace7e3ed8f"
+  },
+  "pages": {
+    "NeetiQ Autopilot v2": "344d0197-11ad-819e-8430-d74458a7236b",
+    "Strategy": "344d0197-11ad-8103-bd36-fe4a0ad6f9ce",
+    "USER": "344d0197-11ad-81b4-bbbc-efad862043c5",
+    "CEO Briefing": "344d0197-11ad-8152-866e-d6a4ec7cfaee",
+    "Brand Identity": "344d0197-11ad-8183-a90a-f401f06582de",
+    "Product Inventory": "344d0197-11ad-8191-9eff-cd0abaad9058",
+    "Weekly Logs": "344d0197-11ad-8106-a55d-c8eebda3e458"
+  },
+  "databases": {
+    "agent_log": {
+      "database_id": "1ec81f7035064cb9b8f71e0a9064f041",
+      "data_source_id": "14a1b6b7-85b5-4c25-adec-768c1ab202cb",
+      "url": "https://www.notion.so/1ec81f7035064cb9b8f71e0a9064f041"
+    },
+    "published_posts": {
+      "database_id": "e2408775daff4207aa3f506d23739a22",
+      "data_source_id": "569c7fbd-357f-420e-8319-ef5c72257fd9",
+      "url": "https://www.notion.so/e2408775daff4207aa3f506d23739a22"
+    },
+    "outreach_pipeline": {
+      "database_id": "5827bb60bee0447b839bd8c50f9765f5",
+      "data_source_id": "1f7b1db3-c54d-42f8-a7e3-0fd6355cb5c1",
+      "url": "https://www.notion.so/5827bb60bee0447b839bd8c50f9765f5"
+    },
+    "competitive_watchlist": {
+      "database_id": "b321621198474c0b89591cd4da9cb3b6",
+      "data_source_id": "26b30e4e-bb8f-4528-83c6-008feafa4839",
+      "url": "https://www.notion.so/b321621198474c0b89591cd4da9cb3b6"
+    }
+  }
+}
