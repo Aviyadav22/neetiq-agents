@@ -3,9 +3,9 @@
 intel-feed/poll.py
 
 Polls RSS feeds + scrape-targets listed in sources.yml.
-Writes normalized JSON to intel-feed/out/YYYY-MM-DD.json.
+Writes normalized JSON to outputs/intel-feed/YYYY-MM-DD.json at repo root.
 
-Runs inside GitHub Actions (see ../github-actions/intel-feed.yml).
+Runs inside GitHub Actions (see .github/workflows/intel-feed.yml).
 Never run this from Claude's session — Claude reads the *output* only.
 """
 
@@ -25,9 +25,10 @@ import yaml
 from bs4 import BeautifulSoup
 from dateutil import parser as dateparser
 
-ROOT = Path(__file__).resolve().parent
-SOURCES = ROOT / "sources.yml"
-OUT_DIR = ROOT / "out"
+SCRIPT_DIR = Path(__file__).resolve().parent
+REPO_ROOT = SCRIPT_DIR.parents[1]
+SOURCES = SCRIPT_DIR / "sources.yml"
+OUT_DIR = REPO_ROOT / "outputs" / "intel-feed"
 USER_AGENT = "neetiq-intel-feed/1.0 (+https://neetiq.ai)"
 TIMEOUT = 20
 MAX_SNIPPET = 400

@@ -1,0 +1,51 @@
+# intel-feed/sources.yml
+#
+# Sources polled by infra/github-actions/poll.py, scheduled via
+# .github/workflows/intel-feed.yml. Output: outputs/intel-feed/YYYY-MM-DD.json.
+#
+# Failures on individual sources are logged but do NOT fail the run, as long
+# as at least one source succeeds. Prune / add sources based on what actually
+# returns content in the weekly ANALYTICS review.
+
+rss:
+  - name: harvey
+    url: https://www.harvey.ai/blog/rss.xml
+  - name: jhana
+    url: https://jhana.ai/blog/feed.xml
+  - name: spellbook
+    url: https://www.spellbook.legal/blog/rss.xml
+  - name: casetext_cocounsel
+    url: https://casetext.com/blog/rss/
+
+pages:
+  - name: lexoo
+    url: https://lexoo.com/blog/
+    selector: "article h2 a"
+  - name: leegality
+    url: https://www.leegality.com/blog
+    selector: ".post-title a"
+  - name: presolv360
+    url: https://www.presolv360.com/blog
+    selector: "h3 a"
+  - name: sahamati
+    url: https://sahamati.org.in/blog/
+    selector: ".post-card a"
+
+india_regulators:
+  - name: meity_dpdp
+    url: https://www.meity.gov.in/data-protection-framework
+    selector: "main a"
+  - name: rbi_circulars
+    url: https://www.rbi.org.in/Scripts/NotificationUser.aspx
+    selector: ".tablebg a"
+  - name: sebi_circulars
+    url: https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=1&ssid=5
+    selector: ".rgSelectedRow a"
+
+grants:
+  - name: startup_india_seed
+    url: https://www.startupindia.gov.in/content/sih/en/ams-application/schemes.html
+    selector: ".scheme-card a"
+  - name: openai_grants
+    url: https://openai.com/form/researcher-access-program/
+    selector: "main"

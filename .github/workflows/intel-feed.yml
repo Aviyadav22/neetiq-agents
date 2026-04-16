@@ -1,0 +1,64 @@
+# .github/workflows/intel-feed.yml
+#
+# Polls competitor RSS + pages daily, writes normalized JSON to
+# outputs/intel-feed/. INTEL daily_scan reads these files every morning —
+# it does NOT hit external URLs itself. Keeps network fan-out centralized
+# and auditable.
+#
+# Source template: infra/github-actions/intel-feed.yml (keep in sync).
+# Script:          infra/github-actions/poll.py
+# Sources list:    infra/github-actions/sources.yml
+# Output:          outputs/intel-feed/YYYY-MM-DD.json
+
+name: intel-feed
+
+on:
+  schedule:
+    # 07:30 IST weekdays, 09:30 IST Saturday
+    # (GitHub cron is UTC: IST = UTC+5:30, so 02:00 UTC weekdays, 04:00 UTC Sat)
+    - cron: "0 2 * * 1-5"
+    - cron: "0 4 * * 6"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  poll:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+
+      - name: Install deps
+        run: pip install feedparser requests beautifulsoup4 python-dateutil pyyaml
+
+      - name: Run feed poller
+        run: python infra/github-actions/poll.py
+
+      - name: Commit results
+        run: |
+          git config user.name "neetiq-intel-bot"
+          git config user.email "intel-bot@users.noreply.github.com"
+          git add outputs/intel-feed/
+          if git diff --staged --quiet; then
+            echo "No changes"
+            exit 0
+          fi
+          git commit -m "intel-feed: $(date -u +%Y-%m-%dT%H:%MZ)"
+          git push
+
+      - name: Ping healthcheck
+        if: success()
+        run: |
+          curl -fsS -m 10 --retry 3 "${{ secrets.HEALTHCHECKS_URL_INTEL }}" || true
+
+      - name: Ping healthcheck — fail
+        if: failure()
+        run: |
+          curl -fsS -m 10 --retry 3 "${{ secrets.HEALTHCHECKS_URL_INTEL }}/fail" || true
