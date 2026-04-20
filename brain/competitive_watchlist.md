@@ -167,9 +167,10 @@
 - **Last checked**: 2026-04-01
 
 ### Spellbook
-- **What they do**: Market data grounding for contract review. 270+ clause benchmarks.
+- **What they do**: Market data grounding for contract review. 270+ clause benchmarks. $50M Series B (Oct 2025, Khosla Ventures).
 - **NeetiQ's angle**: Market norms (Spellbook) vs statute tracing (ContraRed). Complementary.
-- **Last checked**: 2026-04-01
+- **NEW (2026-04-20)**: Channel Partner Program launched (Feb 2026) — expanding distribution via resellers. "March Releases" product update (Apr 15) and new "Spicy Mode" feature exist but RSS feed returned no body text; content unknown. Distribution reach expanding in North America.
+- **Last checked**: 2026-04-20 (INTEL daily scan: channel partner program, product updates — no snippet content available)
 
 ---
 

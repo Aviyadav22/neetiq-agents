@@ -28,6 +28,7 @@ YYYY-MM-DD HH:MM | AGENT | MODEL | PHASE | ACTION | RESULT | NEXT
 ## Starting state (2026-04-17, v2 migration)
 
 ```
+2026-04-20 08:00 | INTEL | sonnet-4.6 | 2 | daily scan Apr 16-20, 4 feeds, 7 sources dark | PARTIAL | outputs/logs/intel_daily_2026-04-20.md
 2026-04-17 00:20 | COO | claude (v2 migration) | 2 | v2 scaffolding committed | OK | Version 2 agents/
 2026-04-17 00:20 | COO | claude (v2 migration) | 2 | v1 scheduled tasks disabled, v2 tasks registered | OK | scheduled-tasks MCP
 2026-04-17 00:20 | COO | claude (v2 migration) | 2 | Notion brain mirror created | OK | Notion > NeetiQ Autopilot v2
