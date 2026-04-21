@@ -52,12 +52,24 @@ jobs:
           git commit -m "intel-feed: $(date -u +%Y-%m-%dT%H:%MZ)"
           git push
 
-      - name: Ping healthcheck
+      # Weekday cron "0 2 * * 1-5" pings WEEKDAY check, Saturday "0 4 * * 6" pings SAT check.
+      # github.event.schedule contains the exact cron string that fired.
+      # workflow_dispatch (manual) defaults to WEEKDAY so we never silently miss.
+      - name: Resolve healthcheck URL
+        id: hc
+        run: |
+          if [ "${{ github.event.schedule }}" = "0 4 * * 6" ]; then
+            echo "url=${{ secrets.HEALTHCHECKS_URL_INTEL_FEED_SAT }}" >> "$GITHUB_OUTPUT"
+          else
+            echo "url=${{ secrets.HEALTHCHECKS_URL_INTEL_FEED_WEEKDAY }}" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Ping healthcheck (success)
         if: success()
         run: |
-          curl -fsS -m 10 --retry 3 "${{ secrets.HEALTHCHECKS_URL_INTEL }}" || true
+          curl -fsS -m 10 --retry 3 "${{ steps.hc.outputs.url }}" || true
 
-      - name: Ping healthcheck — fail
+      - name: Ping healthcheck (fail)
         if: failure()
         run: |
-          curl -fsS -m 10 --retry 3 "${{ secrets.HEALTHCHECKS_URL_INTEL }}/fail" || true
+          curl -fsS -m 10 --retry 3 "${{ steps.hc.outputs.url }}/fail" || true
