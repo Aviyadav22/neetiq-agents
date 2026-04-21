@@ -19,6 +19,8 @@ Notion databases, rows where Run At or Last Touched is within the last 7 days:
 - outreach_pipeline (5827bb60bee0447b839bd8c50f9765f5) — stage distribution snapshot
 - competitive_watchlist (b321621198474c0b89591cd4da9cb3b6) — full
 
+Continuity check: fetch the last 2 Notion sub-pages under "NeetiQ Autopilot v2 > Weekly Logs" titled "COO Sunday YYYY-Www" (the previous two weeks). Skim for Follow-ups that were left open — they should either be closed this week or explicitly re-scheduled. Don't drop items silently.
+
 ## Step 3 — Weekly strategy rewrite
 Rewrite the WEEKLY OPS section of the Notion "Strategy" page. DO NOT touch the STOP fenced block or the current_phase line — only Avi or an explicit phase transition may change those.
 
