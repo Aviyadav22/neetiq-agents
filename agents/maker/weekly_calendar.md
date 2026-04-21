@@ -109,3 +109,13 @@ If Avi messages "draft a post about X" from Dispatch during the week, MAKER runs
 - Never write a post in a phase other than current_phase.
 - Never auto-post. Drafts, always.
 - No em dashes. Anywhere. Ever. (This is the most-violated rule in v1.)
+
+## Healthchecks ping (MANDATORY — bookends the run)
+
+MAKER Weekly is a 15–25 min long-runner that Avi actually reads the output of; if it silently fails, the whole week has no content.
+
+- At the TOP, right after stop-check and phase-check, fetch (HTTP GET): `https://hc-ping.com/6ea24aa4-4b7e-4998-b2f6-7b16dfa27c8e/start`
+- At the BOTTOM, after writing the drafts file, sending the Dispatch push, and writing the log row, fetch (HTTP GET): `https://hc-ping.com/6ea24aa4-4b7e-4998-b2f6-7b16dfa27c8e`
+- On unrecoverable error (voice audit crash, Notion down, no COO seeds file), fetch `https://hc-ping.com/6ea24aa4-4b7e-4998-b2f6-7b16dfa27c8e/fail` before aborting.
+
+Use Bash: `curl -fsS -m 10 --retry 3 "<url>" >/dev/null || true`. Fallback: WebFetch. 60-min grace, tagged critical — missed ping pages Avi by SMS.

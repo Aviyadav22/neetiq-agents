@@ -109,3 +109,15 @@ If a prospect replies during the session:
 - Hard caps are ceiling, not target. Aim for 3/3/3 on a typical day (3 conns + 3 DMs + 3 replies).
 - Delays are non-negotiable. 45–120s randomized. Don't batch.
 - "Once in the DM, always in the DM" — don't parallel-message someone on Instagram, X, or email after starting a LinkedIn thread, unless Avi directs.
+
+## Healthchecks ping (MANDATORY, session close)
+
+CONNECT is human-in-loop, so the check has a 4h grace from 11:00 IST. The ping fires from session close — NOT from the 11am Windows scheduled nudge. A missed ping means either the system broke or Avi skipped outreach today; both are worth flagging.
+
+At the end of the session (step 4 above, after the summary and log row), fetch (HTTP GET):
+`https://hc-ping.com/5f1495b9-8475-46f8-a96a-05549ecd4021`
+
+If the session aborted due to CAPTCHA, limit warning, or account flag (see Failure modes), fetch `.../fail` instead:
+`https://hc-ping.com/5f1495b9-8475-46f8-a96a-05549ecd4021/fail`
+
+Use Bash inside Cowork if available (`curl -fsS -m 10 --retry 3 "<url>" >/dev/null || true`). If running purely inside Claude in Chrome, use WebFetch to GET the URL. Email alert on miss past grace.

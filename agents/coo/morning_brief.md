@@ -30,9 +30,13 @@ Directive status: <any OVERDUE item from ceo_briefing.md>.
 Top ask: <1 specific thing Avi should decide/do today. ONE thing.>
 ```
 
-## Healthchecks ping
+## Healthchecks ping (MANDATORY, final action)
 
-At the end of a successful run, curl `HEALTHCHECKS_URL_HERE` (replace during manual setup step 9). 35-min grace. If Avi doesn't get the Dispatch and Healthchecks doesn't get the ping, he gets an SMS.
+As the last step after the Dispatch push goes out, fetch (HTTP GET): `https://hc-ping.com/07ad8b7c-1df3-4dad-9ec3-ca6dfe6bdf5b`
+
+Use Bash: `curl -fsS -m 10 --retry 3 "https://hc-ping.com/07ad8b7c-1df3-4dad-9ec3-ca6dfe6bdf5b" >/dev/null || true`. Fallback: WebFetch.
+
+If Dispatch fails or the briefing couldn't be built (missing inputs, Notion down), fetch `.../fail` instead: `https://hc-ping.com/07ad8b7c-1df3-4dad-9ec3-ca6dfe6bdf5b/fail`. 35-min grace; a missed or failed ping pages Avi by SMS.
 
 ## Log
 

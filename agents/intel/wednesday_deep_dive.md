@@ -68,3 +68,13 @@ Full report: Notion > NeetiQ Autopilot v2 > INTEL Deep Dives > YYYY-Www.
 
 - Never recommend a counter-move that violates the current phase (e.g., don't recommend a Phase 4 thought-leadership post if current_phase=2).
 - If >2 competitors moved meaningfully in the same week, flag that as "compression risk" — NeetiQ's window is shrinking.
+
+## Healthchecks ping (MANDATORY — bookends the run)
+
+Wednesday Deep Dive is a 20–35 min long-runner. Ping both ends.
+
+- At the TOP, right after stop-check and charter read, fetch (HTTP GET): `https://hc-ping.com/3dfa732a-0799-4138-8a7b-d8a8350942db/start`
+- At the BOTTOM, after writing the Notion page and the log row, fetch (HTTP GET): `https://hc-ping.com/3dfa732a-0799-4138-8a7b-d8a8350942db`
+- On unrecoverable error, fetch `https://hc-ping.com/3dfa732a-0799-4138-8a7b-d8a8350942db/fail` before aborting.
+
+Use Bash: `curl -fsS -m 10 --retry 3 "<url>" >/dev/null || true`. Fallback: WebFetch. 45-min grace; missed ping = email alert.

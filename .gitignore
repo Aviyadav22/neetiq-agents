@@ -1,14 +1,31 @@
+# Secrets — never commit
 brain/.env.local
+brain/.env
+brain/*.secret
 .env
 .env.*
 !.env.example
+!brain/.env.local.example
 
+# Local inbox (Dispatch drafts, personal notes)
+brain/inbox.md
+
+# Transient agent output
+agents/*/runs/
+infra/github-actions/out/
+
+# Python
 __pycache__/
 *.pyc
 *.pyo
 
+# OS / editor noise
 .DS_Store
 Thumbs.db
 desktop.ini
+*.swp
+.idea/
+.vscode/
 
+# Claude Code local overrides
 .claude/settings.local.json

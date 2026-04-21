@@ -13,22 +13,29 @@ non-optional.
 
 ## Checks to create
 
-Sign in → `healthchecks.io/checks/` → **Add Check** for each row.
+Sign in → `healthchecks.io/checks/` → **Add Check** for each row. On each
+check, open the **Schedule** tab → select **Cron** → paste the expression
+→ set timezone to `Asia/Kolkata` → set grace from the table.
 
-| Name | Schedule | Grace | Tag |
+Healthchecks takes ONE cron per check, so schedules that fire on two
+different clock times are split into two checks (intel daily vs saturday,
+intel-feed weekday vs saturday).
+
+| Name | Cron (Asia/Kolkata) | Grace | Tags |
 |---|---|---|---|
-| neetiq-v2-coo-sunday | Every Sun 06:00 IST | 45 min | coo, weekly |
-| neetiq-v2-coo-morning | Weekdays 08:30 IST | 35 min | coo, daily |
-| neetiq-v2-coo-evening | Weekdays 18:00 IST | 35 min | coo, daily |
-| neetiq-v2-intel-daily | Weekdays 08:00 IST + Sat 10:00 IST | 30 min | intel, daily |
-| neetiq-v2-intel-wed | Wed 10:00 IST | 45 min | intel, weekly |
-| neetiq-v2-maker-weekly | Sun 07:00 IST | 60 min | maker, weekly |
-| neetiq-v2-connect-daily-prompt | Weekdays 11:00 IST | 240 min (humanloop) | connect, daily |
-| neetiq-v2-analytics-weekly | Fri 18:00 IST | 45 min | analytics, weekly |
-| neetiq-v2-intel-feed-github | Weekdays 07:30 IST + Sat 09:30 IST | 20 min | intel, github |
+| neetiq-v2-coo-sunday | `0 6 * * 0` | 45 | coo, weekly, critical |
+| neetiq-v2-coo-morning | `30 8 * * 1-5` | 35 | coo, daily, critical |
+| neetiq-v2-coo-evening | `0 18 * * 1-5` | 35 | coo, daily |
+| neetiq-v2-intel-daily | `0 8 * * 1-5` | 30 | intel, daily |
+| neetiq-v2-intel-saturday | `0 10 * * 6` | 30 | intel, daily |
+| neetiq-v2-intel-wed | `0 10 * * 3` | 45 | intel, weekly |
+| neetiq-v2-maker-weekly | `0 7 * * 0` | 60 | maker, weekly, critical |
+| neetiq-v2-connect-daily-prompt | `0 11 * * 1-5` | 240 | connect, daily |
+| neetiq-v2-analytics-weekly | `0 18 * * 5` | 45 | analytics, weekly |
+| neetiq-v2-intel-feed-github-weekday | `30 7 * * 1-5` | 20 | intel, github, critical |
+| neetiq-v2-intel-feed-github-sat | `30 9 * * 6` | 20 | intel, github, critical |
 
-Cron schedule format: open the **Schedule** tab on each check and select
-"Cron" — they're clock-based, not periodic.
+11 checks. Hobbyist (free) plan allows 20 so we're fine.
 
 ## Where the URLs live
 
@@ -41,15 +48,19 @@ HEALTHCHECKS_URL_COO_SUNDAY=https://hc-ping.com/...
 HEALTHCHECKS_URL_COO_MORNING=https://hc-ping.com/...
 HEALTHCHECKS_URL_COO_EVENING=https://hc-ping.com/...
 HEALTHCHECKS_URL_INTEL_DAILY=https://hc-ping.com/...
+HEALTHCHECKS_URL_INTEL_SATURDAY=https://hc-ping.com/...
 HEALTHCHECKS_URL_INTEL_WED=https://hc-ping.com/...
 HEALTHCHECKS_URL_MAKER_WEEKLY=https://hc-ping.com/...
 HEALTHCHECKS_URL_CONNECT=https://hc-ping.com/...
 HEALTHCHECKS_URL_ANALYTICS=https://hc-ping.com/...
-HEALTHCHECKS_URL_INTEL=https://hc-ping.com/...   # GitHub Actions feed
+HEALTHCHECKS_URL_INTEL_FEED_WEEKDAY=https://hc-ping.com/...
+HEALTHCHECKS_URL_INTEL_FEED_SAT=https://hc-ping.com/...
 ```
 
-The GitHub one ALSO gets added to the repo as
-`secrets.HEALTHCHECKS_URL_INTEL` so the Actions workflow can read it.
+The two `INTEL_FEED_*` URLs ALSO go into the GitHub repo as
+`secrets.HEALTHCHECKS_URL_INTEL_FEED_WEEKDAY` and
+`secrets.HEALTHCHECKS_URL_INTEL_FEED_SAT` so the Actions workflow can read
+them.
 
 ## How agents ping
 
@@ -83,7 +94,8 @@ Configure under `healthchecks.io/integrations/`:
 2. **Email** to `aviyadav.personal@gmail.com` — for everything else.
 3. **Slack webhook** — skip for now. Dispatch already covers.
 
-Tag `critical` on: coo-morning, coo-sunday, intel-feed-github, maker-weekly.
+Tag `critical` on: coo-morning, coo-sunday, maker-weekly,
+intel-feed-github-weekday, intel-feed-github-sat.
 
 ## Grace window philosophy
 

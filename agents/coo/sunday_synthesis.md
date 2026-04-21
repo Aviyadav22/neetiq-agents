@@ -83,3 +83,13 @@ One row to `brain/agent_log.md` and Notion `agent_log`:
 - Notion MCP 500: log failure, keep running (local files are still authoritative). Flag in Dispatch push.
 - Notion data conflicts with local: PREFER LOCAL. Note the conflict in the output file and queue for manual resolution.
 - Phase ambiguous: default to NO transition, flag Avi explicitly.
+
+## Healthchecks ping (MANDATORY — bookends the run)
+
+COO Sunday is a long-runner. Ping both ends so Healthchecks knows the run is in-flight vs stuck.
+
+- At the TOP, right after the STOP check and charter read, fetch (HTTP GET): `https://hc-ping.com/e5e95741-03f7-4fe7-8d22-7be35e244340/start`
+- At the BOTTOM, after writing the log row, fetch (HTTP GET): `https://hc-ping.com/e5e95741-03f7-4fe7-8d22-7be35e244340`
+- On an unrecoverable error (Notion down, STOP flipped mid-run, model refusal), fetch `https://hc-ping.com/e5e95741-03f7-4fe7-8d22-7be35e244340/fail` before aborting.
+
+Use the Bash tool: `curl -fsS -m 10 --retry 3 "<url>" >/dev/null || true`. If Bash isn't available, use WebFetch to GET the URL. Missed pings past the 45-min grace trigger an SMS to Avi — do not skip.

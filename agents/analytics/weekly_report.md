@@ -61,9 +61,13 @@ Top recommendation: <one line>.
 Full: Notion > NeetiQ Autopilot v2 > Analytics > Week-YYYY-Www.
 ```
 
-## Healthchecks ping
+## Healthchecks ping (MANDATORY — bookends the run)
 
-End of successful run: curl `HEALTHCHECKS_URL_WEEKLY` (separate check from morning brief).
+- At the TOP, right after stop-check, fetch (HTTP GET): `https://hc-ping.com/8c5be281-4ac9-45ab-abd1-74b8a531a821/start`
+- At the BOTTOM, after writing the Notion page, Gmail draft, Dispatch push, and log row, fetch (HTTP GET): `https://hc-ping.com/8c5be281-4ac9-45ab-abd1-74b8a531a821`
+- On unrecoverable error, fetch `https://hc-ping.com/8c5be281-4ac9-45ab-abd1-74b8a531a821/fail` before aborting.
+
+Use Bash: `curl -fsS -m 10 --retry 3 "<url>" >/dev/null || true`. Fallback: WebFetch. 45-min grace, email alert on miss.
 
 ## Log
 

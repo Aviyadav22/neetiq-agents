@@ -38,3 +38,11 @@ Weekly cap: <% burned>. <"on track" / "watch" / "cut non-critical">.
 
 - Weekly cap check: if >65% by Wednesday evening, next morning brief must flag "cut non-critical INTEL" and COO Sunday must demote tasks for the rest of the week.
 - If no MAKER or CONNECT runs happened today, say so explicitly — silence is a signal of system failure.
+
+## Healthchecks ping (MANDATORY, final action)
+
+After the Dispatch push and log row, fetch (HTTP GET): `https://hc-ping.com/6a99bc9e-e954-48f3-96bf-ee0804560cb4`
+
+Use Bash: `curl -fsS -m 10 --retry 3 "https://hc-ping.com/6a99bc9e-e954-48f3-96bf-ee0804560cb4" >/dev/null || true`. Fallback: WebFetch.
+
+On unrecoverable error, fetch `https://hc-ping.com/6a99bc9e-e954-48f3-96bf-ee0804560cb4/fail` before aborting. 35-min grace; missed ping = email to Avi (not SMS — evening is not tagged critical).
