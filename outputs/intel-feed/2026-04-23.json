@@ -1,0 +1,222 @@
+{
+  "run_at": "2026-04-23T04:48:20Z",
+  "sources_polled": 13,
+  "sources_failed": [
+    "harvey",
+    "jhana",
+    "casetext_cocounsel",
+    "lexoo",
+    "meity_dpdp",
+    "startup_india_seed",
+    "openai_grants"
+  ],
+  "entries": [
+    {
+      "source": "spellbook",
+      "source_type": "rss",
+      "title": "What’s New in Spellbook? March Releases",
+      "url": "https://www.spellbook.legal/blog/whats-new-in-spellbook-march-2026",
+      "published": "2026-04-15T18:46:02Z",
+      "snippet": "",
+      "hash": "sha1:42a4aa56fd89642a"
+    },
+    {
+      "source": "spellbook",
+      "source_type": "rss",
+      "title": "Meet Spicy Mode",
+      "url": "https://www.spellbook.legal/blog/meet-spicy-mode",
+      "published": "2026-04-03T00:09:32Z",
+      "snippet": "",
+      "hash": "sha1:24bcd0a29013b5d8"
+    },
+    {
+      "source": "spellbook",
+      "source_type": "rss",
+      "title": "Spellbook Launches Channel Partner Program",
+      "url": "https://www.spellbook.legal/blog/introducing-spellbook-channel-partner-program",
+      "published": "2026-02-14T03:28:39Z",
+      "snippet": "",
+      "hash": "sha1:c9b1ff5abb2bf0c0"
+    },
+    {
+      "source": "spellbook",
+      "source_type": "rss",
+      "title": "Introducing Compare to Market",
+      "url": "https://www.spellbook.legal/blog/introducing-compare-to-market",
+      "published": "2026-01-26T16:53:34Z",
+      "snippet": "",
+      "hash": "sha1:c2d984f042b38026"
+    },
+    {
+      "source": "spellbook",
+      "source_type": "rss",
+      "title": "Spellbook Partners with HeyCounsel",
+      "url": "https://www.spellbook.legal/blog/spellbook-partners-with-heycounsel",
+      "published": "2026-01-21T21:51:04Z",
+      "snippet": "",
+      "hash": "sha1:ee5e7225889dba76"
+    },
+    {
+      "source": "spellbook",
+      "source_type": "rss",
+      "title": "Introducing Spellbook's 2026 State of Contracts Report",
+      "url": "https://www.spellbook.legal/blog/2026-state-of-contracts-report",
+      "published": "2025-12-18T04:28:36Z",
+      "snippet": "",
+      "hash": "sha1:7b087e7bd29ed03a"
+    },
+    {
+      "source": "spellbook",
+      "source_type": "rss",
+      "title": "Spellbook Now Complies with HIPAA Requirements",
+      "url": "https://www.spellbook.legal/blog/hipaa",
+      "published": "2025-12-15T15:53:27Z",
+      "snippet": "",
+      "hash": "sha1:b5e8a114327b00d5"
+    },
+    {
+      "source": "spellbook",
+      "source_type": "rss",
+      "title": "Introducing Preference Learning in Spellbook Reviews",
+      "url": "https://www.spellbook.legal/blog/preference-learning",
+      "published": "2025-12-09T15:59:07Z",
+      "snippet": "",
+      "hash": "sha1:df776a55df580670"
+    },
+    {
+      "source": "spellbook",
+      "source_type": "rss",
+      "title": "Spellbook Raises $50m Series B led by Khosla Ventures",
+      "url": "https://www.spellbook.legal/blog/series-b",
+      "published": "2025-10-09T14:35:12Z",
+      "snippet": "Today we’re announcing our Series B financing led by Keith Rabois at Khosla Ventures, including participation from Threshold Ventures, Inovia, Bling Capital and Moxxie Ventures.",
+      "hash": "sha1:a9758d9af4fb1afb"
+    },
+    {
+      "source": "spellbook",
+      "source_type": "rss",
+      "title": "Introducing New Precedents: Stories on Law in the Age of AI",
+      "url": "https://www.spellbook.legal/blog/new-precedents",
+      "published": "2025-09-24T18:52:38Z",
+      "snippet": "",
+      "hash": "sha1:6c92ddbfae8bb4fe"
+    },
+    {
+      "source": "spellbook",
+      "source_type": "rss",
+      "title": "Spellbook’s Academic Partner Program Launches with 50+ Law Schools",
+      "url": "https://www.spellbook.legal/blog/academic-partner-program",
+      "published": "2025-09-04T14:24:47Z",
+      "snippet": "",
+      "hash": "sha1:626d5b37ce27026f"
+    },
+    {
+      "source": "spellbook",
+      "source_type": "rss",
+      "title": "GPT-5 is Now Live in Spellbook",
+      "url": "https://www.spellbook.legal/blog/gpt-5-live-in-spellbook",
+      "published": "2025-09-02T19:46:20Z",
+      "snippet": "We’ve been collaborating with OpenAI to be one of the first companies in the world to launch GPT-5 in our products. After testing GPT-5 against contracting use cases, we think a new universe of capabilities are about to open up.",
+      "hash": "sha1:f6b9ce0d848552bc"
+    },
+    {
+      "source": "spellbook",
+      "source_type": "rss",
+      "title": "Contract Prompt Library",
+      "url": "https://www.spellbook.legal/blog/prompt-library",
+      "published": "2025-08-27T23:14:12Z",
+      "snippet": "Pick from ready-to-use prompts, discover features in context, and get helpful follow-ups as you go.",
+      "hash": "sha1:1fb1432b3952278d"
+    },
+    {
+      "source": "spellbook",
+      "source_type": "rss",
+      "title": "AI in Legal Departments: 2025 Benchmarking Report",
+      "url": "https://www.spellbook.legal/blog/counselwell",
+      "published": "2025-08-27T20:43:39Z",
+      "snippet": "AI is no longer a future topic for legal departments. It’s reshaping how legal teams get work done today.",
+      "hash": "sha1:6c031dd266e3d051"
+    },
+    {
+      "source": "spellbook",
+      "source_type": "rss",
+      "title": "Announcing Spellbook's SOC 2 Compliance",
+      "url": "https://www.spellbook.legal/blog/spellbook-soc2",
+      "published": "2025-08-27T20:43:33Z",
+      "snippet": "We’re proud to announce that Spellbook has achieved SOC 2 Type II compliance. This milestone reinforces our commitment to security, privacy, and trust—ensuring legal teams can confidently rely on our suite of AI tools.",
+      "hash": "sha1:5908046f83b3899b"
+    },
+    {
+      "source": "rbi_circulars",
+      "source_type": "page",
+      "title": "Digital Payments – E-mandate Framework, 2026",
+      "url": "NotificationUser.aspx?Id=13374&Mode=0",
+      "published": null,
+      "snippet": "Digital Payments – E-mandate Framework, 2026",
+      "hash": "sha1:2e9554d741caa045"
+    },
+    {
+      "source": "rbi_circulars",
+      "source_type": "page",
+      "title": "Risk Management and Inter-Bank Dealings",
+      "url": "NotificationUser.aspx?Id=13373&Mode=0",
+      "published": null,
+      "snippet": "Risk Management and Inter-Bank Dealings",
+      "hash": "sha1:23f2495aee6be176"
+    },
+    {
+      "source": "rbi_circulars",
+      "source_type": "page",
+      "title": "Implementation of Section 51A of UAPA, 1967: Updates to UNSC’s 1988 (2011) Taliban Sanctions List: Amendment of 3 Entries",
+      "url": "NotificationUser.aspx?Id=13372&Mode=0",
+      "published": null,
+      "snippet": "Implementation of Section 51A of UAPA, 1967: Updates to UNSC’s 1988 (2011) Taliban Sanctions List: Amendment of 3 Entries",
+      "hash": "sha1:63aefc56c0b4442d"
+    },
+    {
+      "source": "rbi_circulars",
+      "source_type": "page",
+      "title": "Implementation of Section 51A of UAPA, 1967: Updates to UNSC’s 1988 (2011) Taliban Sanctions List: Amendment of 04 Entries",
+      "url": "NotificationUser.aspx?Id=13371&Mode=0",
+      "published": null,
+      "snippet": "Implementation of Section 51A of UAPA, 1967: Updates to UNSC’s 1988 (2011) Taliban Sanctions List: Amendment of 04 Entries",
+      "hash": "sha1:e91f93a1ac80038a"
+    },
+    {
+      "source": "rbi_circulars",
+      "source_type": "page",
+      "title": "Reserve Bank of India (Non-Banking Financial Companies – Branch Authorisation) Amendment Directions, 2026",
+      "url": "NotificationUser.aspx?Id=13370&Mode=0",
+      "published": null,
+      "snippet": "Reserve Bank of India (Non-Banking Financial Companies – Branch Authorisation) Amendment Directions, 2026",
+      "hash": "sha1:b0c94aa870fd1bdb"
+    },
+    {
+      "source": "rbi_circulars",
+      "source_type": "page",
+      "title": "Master Direction - Reserve Bank of India (Non-resident Investment in Debt Instruments) Directions, 2025 – amendment",
+      "url": "NotificationUser.aspx?Id=13369&Mode=0",
+      "published": null,
+      "snippet": "Master Direction - Reserve Bank of India (Non-resident Investment in Debt Instruments) Directions, 2025 – amendment",
+      "hash": "sha1:9db97b6278cbe8e1"
+    },
+    {
+      "source": "rbi_circulars",
+      "source_type": "page",
+      "title": "Formation of new districts in the State of Andhra Pradesh – Assignment of Lead Bank Responsibility",
+      "url": "NotificationUser.aspx?Id=13368&Mode=0",
+      "published": null,
+      "snippet": "Formation of new districts in the State of Andhra Pradesh – Assignment of Lead Bank Responsibility",
+      "hash": "sha1:cb3659ae8112dbac"
+    },
+    {
+      "source": "rbi_circulars",
+      "source_type": "page",
+      "title": "Guidelines to facilitate faster cross-border inward payments",
+      "url": "NotificationUser.aspx?Id=13367&Mode=0",
+      "published": null,
+      "snippet": "Guidelines to facilitate faster cross-border inward payments",
+      "hash": "sha1:4702e29b71cb05a1"
+    }
+  ]
+}
