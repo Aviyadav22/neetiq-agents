@@ -25,6 +25,12 @@ YYYY-MM-DD HH:MM | AGENT | MODEL | PHASE | ACTION | RESULT | NEXT
 4. **Failures.** Write one line plus a pointer to `outputs/logs/YYYY-MM-DD_agent_trace.log` for details. Never dump stack traces in the log.
 5. **Rotation.** When the file hits 200 lines, COO Sunday Synthesis moves the oldest half to `outputs/logs/agent_log_archive_YYYY-Www.md`.
 
+## Log (newest first)
+
+2026-04-25 18:00 | COO | haiku-4.5 | 2 | evening summary — 0 posts, 0 outreach, INTEL feed 404 (D12 day 6), 3 drafts pending approval, CONNECT queued Mon Apr 27; Dispatch draft staged | OK | Notion agent_log + Gmail draft r-7437365903125558370
+2026-04-25 10:00 | INTEL | sonnet-4.6 | 2 | daily scan (saturday) — 0 new items, feed 404, fallback 2026-04-24.json, 7 sources dark (D12 day 6), Gmail draft staged | OK | Notion agent_log
+2026-04-25 08:30 | COO | haiku-4.5 | 2 | morning brief — Gmail draft sent; Gmail MCP re-auth needed, D3/D4 OVERDUE Mon Apr 27, 3 drafts pending approval, Tanya stage-7 buyer signal active | OK | Notion agent_log
+
 ## Starting state (2026-04-17, v2 migration)
 
 ```
