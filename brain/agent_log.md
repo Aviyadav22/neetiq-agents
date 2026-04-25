@@ -25,6 +25,12 @@ YYYY-MM-DD HH:MM | AGENT | MODEL | PHASE | ACTION | RESULT | NEXT
 4. **Failures.** Write one line plus a pointer to `outputs/logs/YYYY-MM-DD_agent_trace.log` for details. Never dump stack traces in the log.
 5. **Rotation.** When the file hits 200 lines, COO Sunday Synthesis moves the oldest half to `outputs/logs/agent_log_archive_YYYY-Www.md`.
 
+## Recent runs
+
+```
+2026-04-25 10:00 | INTEL | sonnet-4.6 | 2 | daily scan (saturday) — 0 new items, today's feed 404, fallback 2026-04-24.json, D12 repeat-dark day 6, Saturday Dispatch staged | OK | Notion > Weekly Logs > INTEL Daily 2026-04-25
+```
+
 ## Starting state (2026-04-17, v2 migration)
 
 ```
