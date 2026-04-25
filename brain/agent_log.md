@@ -25,6 +25,12 @@ YYYY-MM-DD HH:MM | AGENT | MODEL | PHASE | ACTION | RESULT | NEXT
 4. **Failures.** Write one line plus a pointer to `outputs/logs/YYYY-MM-DD_agent_trace.log` for details. Never dump stack traces in the log.
 5. **Rotation.** When the file hits 200 lines, COO Sunday Synthesis moves the oldest half to `outputs/logs/agent_log_archive_YYYY-Www.md`.
 
+## Runs (newest on top)
+
+```
+2026-04-25 12:00 | INTEL | sonnet-4.6 | 2 | daily scan (weekday, Sat out-of-schedule) — Spellbook Funding restored w/ Series B citation; 0 new competitive items; D12 Day 6 (7 sources dark); Dispatch already fired by Sat routine | OK | https://www.notion.so/34dd019711ad81c9b2c8ed43c5188a63
+```
+
 ## Starting state (2026-04-17, v2 migration)
 
 ```
