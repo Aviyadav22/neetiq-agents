@@ -3,8 +3,8 @@
 ```
 STOP: false
 current_phase: 2
-phase_transition_target: 2026-04-20
-last_sunday_synthesis: 2026-04-12
+phase_transition_target: 2026-04-27
+last_sunday_synthesis: 2026-04-26
 ```
 
 > v2 note: The block above is machine-readable. Every agent's first action is to parse `STOP` and `current_phase` from this block. If STOP is any value other than exactly `false` (case-insensitive), abort. If content phase does not match `current_phase`, abort. The `.claude/skills/stop-check` and `.claude/skills/phase-check` skills enforce this.
