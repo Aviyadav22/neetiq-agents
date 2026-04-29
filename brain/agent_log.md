@@ -25,6 +25,10 @@ YYYY-MM-DD HH:MM | AGENT | MODEL | PHASE | ACTION | RESULT | NEXT
 4. **Failures.** Write one line plus a pointer to `outputs/logs/YYYY-MM-DD_agent_trace.log` for details. Never dump stack traces in the log.
 5. **Rotation.** When the file hits 200 lines, COO Sunday Synthesis moves the oldest half to `outputs/logs/agent_log_archive_YYYY-Www.md`.
 
+## Log entries
+
+2026-04-29 18:00 | COO | haiku-4.5 | 2 | evening summary — dispatch sent (Gmail draft), 5 drafts pending, no MAKER/CONNECT, D12 repeat-dark flagged | OK | Notion agent_log
+
 ## Starting state (2026-04-17, v2 migration)
 
 ```
