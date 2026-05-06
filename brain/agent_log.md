@@ -25,6 +25,12 @@ YYYY-MM-DD HH:MM | AGENT | MODEL | PHASE | ACTION | RESULT | NEXT
 4. **Failures.** Write one line plus a pointer to `outputs/logs/YYYY-MM-DD_agent_trace.log` for details. Never dump stack traces in the log.
 5. **Rotation.** When the file hits 200 lines, COO Sunday Synthesis moves the oldest half to `outputs/logs/agent_log_archive_YYYY-Www.md`.
 
+## Recent runs (newest on top)
+
+```
+2026-05-06 10:00 | INTEL | sonnet-4.6 | 2 | wednesday deep dive | OK | Notion > Weekly Logs > INTEL Wed 2026-W19 (https://www.notion.so/358d019711ad81b99d8ae99bd7880b32) ; watchlist corrections: SpotDraft $113M->$92M, SCC Online piloting->AI Pro preview, Charlotin DB 1313->~1397 ; Gmail dispatch DRAFT only (id r-5931099350288325846, Avi sends manually)
+```
+
 ## Starting state (2026-04-17, v2 migration)
 
 ```

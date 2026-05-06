@@ -2,7 +2,7 @@
 > Single source of truth for ALL competitor intelligence.
 > Updated by: CEO (Cowork sessions), Competitor Intel Agent, GTM Strategy Bot
 > Read by: ALL agents before content creation, outreach, or strategy decisions
-> Last updated: 2026-04-05 (Competitor Intel weekly sweep)
+> Last updated: 2026-05-06 (INTEL Wed deep dive: SpotDraft funding $113M -> $92M; SCC Online "piloting" -> AI Pro preview launched Feb 19 2026; Charlotin DB 1,313 -> ~1,397)
 
 ---
 
@@ -121,8 +121,8 @@
 - **NeetiQ's angle**: Their OS = workflow automation across departments. Our OS = intelligence infrastructure. But Leah's agent marketplace + expansion beyond CLM shows the platform play is working. Leah's "Agentic OS" naming directly competes with NeetiQ's "Legal OS" branding. Key differentiation: Leah orchestrates workflows; NeetiQ provides the underlying intelligence that makes workflows reliable.
 - **Last checked**: 2026-04-10 (Competitor Intel: three-pillar platform, PwC deepened)
 
-### SpotDraft — $113M total funding (India-origin), ~$400M valuation
-- **What they do**: Contract lifecycle management + on-device AI review (VerifAI). $8M Series B extension from Qualcomm Ventures (Jan 2026). Total funding: $113M. 50,000 MAU, 1M+ contracts processed annually. 100% YoY customer acquisition growth, 173% YoY contract volume growth. Used by Nomura, HDFC, PhonePe, Unacademy, CRED, Chargebee.
+### SpotDraft — $92M total funding (India-origin), ~$380M valuation
+- **What they do**: Contract lifecycle management + on-device AI review (VerifAI). $8M Series B extension from Qualcomm Ventures (Jan 2026), on top of $56M Series B (Feb 2025). Total funding: $92M (corrected 2026-05-06 per Tracxn + TechCrunch + Finsmes; prior file value $113M was stale by ~23%). 50,000 MAU, 1M+ contracts processed annually. 100% YoY customer acquisition growth, 173% YoY contract volume growth. Used by Nomura, HDFC, PhonePe, Unacademy, CRED, Chargebee.
 - **NEW (Mar 2026)**: Computation Builder for automated logic in workflow questionnaires. Contract collaboration directly inside Slack (dedicated channels synced with SpotDraft). Custom signature reminders in Workflow Manager. VerifAI embedded inside OnlyOffice Editor. VerifAI applies playbooks and recommendations directly inside Word and OnlyOffice.
 - **Strengths**: India-origin, well-funded ($113M total), on-device AI (Qualcomm-backed), strong traction (50K MAU, 1M+ contracts/year), expanding enterprise presence, Slack-native collaboration
 - **Weaknesses**: CLM workflow tool, not intelligence layer. No litigation side. No zero-hallucination architecture claims.
@@ -143,14 +143,14 @@
 
 ## Tier 3: Adjacent / Watch List
 
-### SCC Online AI Research Assistant (NEW, Apr 2026)
-- **What they do**: India's largest commercial legal database (millions of Indian judgments, statutes, notifications). Now piloting an AI-powered conversational legal research assistant built on Microsoft Azure OpenAI. Allows lawyers to ask questions in plain language instead of Boolean strings.
-- **Source**: Microsoft Source Asia, January 2026.
-- **Strengths**: THE corpus. Millions of Indian judgments vs Smriti's 3K. Established trust with Indian legal profession. Microsoft backing.
-- **Weaknesses**: Database company, not an AI company. Building on Azure OpenAI (general-purpose, not jurisdiction-native architecture). No visible zero-hallucination claims.
-- **NeetiQ's edge**: Smriti's multi-agent pipeline with zero-hallucination architecture vs SCC's general AI layer on top of existing database. But SCC's data advantage is massive. If SCC ships a good AI product, Smriti needs to differentiate on architecture (zero hallucination, citation graph, gap analysis) rather than corpus size.
-- **Assessment**: CRITICAL WATCH. If SCC Online ships a production AI search product, it fundamentally changes the Smriti competitive landscape. They have the data; if they get the AI right, corpus size becomes moot for NeetiQ.
-- **Last checked**: 2026-04-15 (Competitor Intel: initial entry)
+### SCC Online AI Pro (UPGRADED, preview launched Feb 2026)
+- **What they do**: India's largest commercial legal database. AI Pro preview LAUNCHED Feb 19 2026 in New Delhi (announced 77th Republic Day, Jan 26 2026). Built on Microsoft Azure OpenAI + Azure AI Search + Cosmos DB + Document Intelligence. Surfaces insights across 4M+ judgments and 400+ databases; current user base ~150K, targeting 75K+ legal professionals. Closed-environment data handling; every AI-generated statement carries a citation per their explicit positioning. Production GA date not yet surfaced.
+- **Source**: SCC Online blog (https://www.scconline.com/blog/post/2026/02/19/scc-online-ai-pro-preview-launch-new-delhi/) + Microsoft Source Asia (Jan 2026), confirmed via WebSearch 2026-05-06.
+- **Strengths**: THE corpus. 4M+ Indian judgments vs Smriti's 3K. Established trust with Indian legal profession. Microsoft backing. Now wired to a usable AI surface with explicit "citation on every statement" framing.
+- **Weaknesses**: Built on Azure OpenAI (general-purpose, not jurisdiction-native architecture). "Citation on every statement" is the positioning, not necessarily an architectural guarantee. Production GA timing unclear.
+- **NeetiQ's edge**: Smriti's multi-agent pipeline with zero-hallucination architecture vs SCC's RAG-plus-citation layer on top of existing database. SCC's data advantage is massive. With AI Pro now in preview launch (not just "piloting"), the corpus-vs-architecture frame has narrowed; differentiation must lean harder on architectural transparency (statute tracing, gap analysis, verification methodology) rather than just claiming "we don't hallucinate."
+- **Assessment**: CRITICAL WATCH (compression-risk re-rate upward 2026-05-06). Preview is live three months ago; the watchlist had not caught the upgrade. Watch for production GA announcement and any pricing / firm-tier breakdown.
+- **Last checked**: 2026-05-06 (INTEL Wed deep dive: status corrected from "piloting" to "AI Pro preview launched Feb 19 2026")
 
 ### Sandstone — $10M seed from Sequoia (Jan 2026)
 - **What they do**: AI-native in-house legal platform. Ex-McKinsey + attorney co-founders.
@@ -260,7 +260,7 @@
 - **NeetiQ's angle**: First India-native legal AI on Microsoft Marketplace as a Word add-in. ContraRed needs to get on Marketplace to avoid losing this distribution channel.
 - **Last checked**: 2026-04-12 (Product Direction Bot: Marketplace discovery)
 
-- **Charlotin hallucination database now 1,313 cases (Apr 13)**: Up from 1,275+ last tracked. Pace accelerating: Dec 2025 saw 51 new cases, Jan 2026 had 36, Feb 2026 had 33. Nearly 40 new cases in 2 weeks. Use 1,313 in content instead of 1,275+.
+- **Charlotin hallucination database ~1,397 cases (May 06, corrected forward from 1,313 on Apr 13)**: WebSearch synthesis 2026-05-06 (https://www.damiencharlotin.com/hallucinations/) puts current count at ~1,397; CEO Briefing already corrected to ~1,394 on May 3 2026. Pace ~5-6 new cases/day. Do NOT bake any specific count into a post body without WebFetch re-verification once D15 is fixed; treat as INTEL context only.
 - **Nippon Life vs OpenAI — upstream AI developer liability (Apr 13)**: Lawsuit in Illinois argues ChatGPT enabled improper legal filings. First significant case hinting at developer liability, not just lawyer liability, for AI-hallucinated legal content. Strengthens case for purpose-built legal AI with source-tracing architecture.
 - **35+ US state bar associations now have AI guidance (Apr 13)**: Up from ~30. ABA Opinion 512 remains anchor. BCI India still has ZERO guidelines. Gap widening.
 - **DPDP breach penalties go to state, not victims (Apr 13)**: Section 43A of IT Act repealed by DPDP. Individuals lose right to direct compensation for data breaches. Fines go to Consolidated Fund of India. Companies face regulatory penalties but no victim compensation obligation.
