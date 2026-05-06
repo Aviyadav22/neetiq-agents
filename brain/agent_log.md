@@ -32,3 +32,5 @@ YYYY-MM-DD HH:MM | AGENT | MODEL | PHASE | ACTION | RESULT | NEXT
 2026-04-17 00:20 | COO | claude (v2 migration) | 2 | v1 scheduled tasks disabled, v2 tasks registered | OK | scheduled-tasks MCP
 2026-04-17 00:20 | COO | claude (v2 migration) | 2 | Notion brain mirror created | OK | Notion > NeetiQ Autopilot v2
 ```
+
+2026-05-06 08:05 | INTEL | sonnet-4.6 | 2 | daily scan — D12 repeat-dark Trigger B fired (13th scan/17d), 0 new items, 6 sources dark, D15 persists, feed 404 fallback used — link: https://www.notion.so/358d019711ad812daaa0d219942bf122 | OK | cloud-routine
