@@ -1,0 +1,221 @@
+{
+  "run_at": "2026-05-07T05:28:56Z",
+  "sources_polled": 13,
+  "sources_failed": [
+    "harvey",
+    "jhana",
+    "casetext_cocounsel",
+    "lexoo",
+    "meity_dpdp",
+    "startup_india_seed"
+  ],
+  "entries": [
+    {
+      "source": "spellbook",
+      "source_type": "rss",
+      "title": "Introducing The Legal AI Adoption Toolkit",
+      "url": "https://spellbook.com/blog/introducing-the-legal-ai-adoption-toolkit",
+      "published": "2026-05-05T23:44:39Z",
+      "snippet": "",
+      "hash": "sha1:5f44a708f157bcea"
+    },
+    {
+      "source": "spellbook",
+      "source_type": "rss",
+      "title": "Introducing Spellbook’s iManage integration",
+      "url": "https://spellbook.com/blog/introducing-spellbooks-imanage-integration",
+      "published": "2026-04-28T21:54:30Z",
+      "snippet": "",
+      "hash": "sha1:4173da5f28473844"
+    },
+    {
+      "source": "spellbook",
+      "source_type": "rss",
+      "title": "What’s New in Spellbook? March Releases",
+      "url": "https://spellbook.com/blog/whats-new-in-spellbook-march-2026",
+      "published": "2026-04-15T18:46:02Z",
+      "snippet": "",
+      "hash": "sha1:20943b882c6b5ec6"
+    },
+    {
+      "source": "spellbook",
+      "source_type": "rss",
+      "title": "Meet Spicy Mode",
+      "url": "https://spellbook.com/blog/meet-spicy-mode",
+      "published": "2026-04-03T00:09:32Z",
+      "snippet": "",
+      "hash": "sha1:01836923c494d2ae"
+    },
+    {
+      "source": "spellbook",
+      "source_type": "rss",
+      "title": "Spellbook Launches Channel Partner Program",
+      "url": "https://spellbook.com/blog/introducing-spellbook-channel-partner-program",
+      "published": "2026-02-14T03:28:39Z",
+      "snippet": "",
+      "hash": "sha1:c40e6ce1f7718fc7"
+    },
+    {
+      "source": "spellbook",
+      "source_type": "rss",
+      "title": "Introducing Compare to Market",
+      "url": "https://spellbook.com/blog/introducing-compare-to-market",
+      "published": "2026-01-26T16:53:34Z",
+      "snippet": "",
+      "hash": "sha1:d442df3b9595386c"
+    },
+    {
+      "source": "spellbook",
+      "source_type": "rss",
+      "title": "Spellbook Partners with HeyCounsel",
+      "url": "https://spellbook.com/blog/spellbook-partners-with-heycounsel",
+      "published": "2026-01-21T21:51:04Z",
+      "snippet": "",
+      "hash": "sha1:385c760baac57d31"
+    },
+    {
+      "source": "spellbook",
+      "source_type": "rss",
+      "title": "Introducing Spellbook's 2026 State of Contracts Report",
+      "url": "https://spellbook.com/blog/2026-state-of-contracts-report",
+      "published": "2025-12-18T04:28:36Z",
+      "snippet": "",
+      "hash": "sha1:44cb46ad0fa5248e"
+    },
+    {
+      "source": "spellbook",
+      "source_type": "rss",
+      "title": "Spellbook Now Complies with HIPAA Requirements",
+      "url": "https://spellbook.com/blog/hipaa",
+      "published": "2025-12-15T15:53:27Z",
+      "snippet": "",
+      "hash": "sha1:9e6cfeb57315a446"
+    },
+    {
+      "source": "spellbook",
+      "source_type": "rss",
+      "title": "Introducing Preference Learning in Spellbook Reviews",
+      "url": "https://spellbook.com/blog/preference-learning",
+      "published": "2025-12-09T15:59:07Z",
+      "snippet": "",
+      "hash": "sha1:502f7b32e41005e9"
+    },
+    {
+      "source": "spellbook",
+      "source_type": "rss",
+      "title": "Spellbook Raises $50m Series B led by Khosla Ventures",
+      "url": "https://spellbook.com/blog/series-b",
+      "published": "2025-10-09T14:35:12Z",
+      "snippet": "Today we’re announcing our Series B financing led by Keith Rabois at Khosla Ventures, including participation from Threshold Ventures, Inovia, Bling Capital and Moxxie Ventures.",
+      "hash": "sha1:7a598f0f026c3dcc"
+    },
+    {
+      "source": "spellbook",
+      "source_type": "rss",
+      "title": "Introducing New Precedents: Stories on Law in the Age of AI",
+      "url": "https://spellbook.com/blog/new-precedents",
+      "published": "2025-09-24T18:52:38Z",
+      "snippet": "",
+      "hash": "sha1:0fcec8b448766ca9"
+    },
+    {
+      "source": "spellbook",
+      "source_type": "rss",
+      "title": "Spellbook’s Academic Partner Program Launches with 50+ Law Schools",
+      "url": "https://spellbook.com/blog/academic-partner-program",
+      "published": "2025-09-04T14:24:47Z",
+      "snippet": "",
+      "hash": "sha1:841929059f296087"
+    },
+    {
+      "source": "spellbook",
+      "source_type": "rss",
+      "title": "GPT-5 is Now Live in Spellbook",
+      "url": "https://spellbook.com/blog/gpt-5-live-in-spellbook",
+      "published": "2025-09-02T19:46:20Z",
+      "snippet": "We’ve been collaborating with OpenAI to be one of the first companies in the world to launch GPT-5 in our products. After testing GPT-5 against contracting use cases, we think a new universe of capabilities are about to open up.",
+      "hash": "sha1:0f11285ed22ccbf3"
+    },
+    {
+      "source": "spellbook",
+      "source_type": "rss",
+      "title": "Contract Prompt Library",
+      "url": "https://spellbook.com/blog/prompt-library",
+      "published": "2025-08-27T23:14:12Z",
+      "snippet": "Pick from ready-to-use prompts, discover features in context, and get helpful follow-ups as you go.",
+      "hash": "sha1:d2561938b04f1ff0"
+    },
+    {
+      "source": "rbi_circulars",
+      "source_type": "page",
+      "title": "Issuance of Foreign Exchange Management (Authorised Persons) Regulations, 2026",
+      "url": "NotificationUser.aspx?Id=13445&Mode=0",
+      "published": null,
+      "snippet": "Issuance of Foreign Exchange Management (Authorised Persons) Regulations, 2026",
+      "hash": "sha1:cc966617f2b98b62"
+    },
+    {
+      "source": "rbi_circulars",
+      "source_type": "page",
+      "title": "Foreign Exchange Management (Authorised Persons) Regulations, 2026",
+      "url": "NotificationUser.aspx?Id=13444&Mode=0",
+      "published": null,
+      "snippet": "Foreign Exchange Management (Authorised Persons) Regulations, 2026",
+      "hash": "sha1:ea27303123765022"
+    },
+    {
+      "source": "rbi_circulars",
+      "source_type": "page",
+      "title": "Reserve Bank of India [Conduct of Government Business by Agency Banks (ABs) – Payment of Agency Commission and Oversight of ABs] Directions, 2026",
+      "url": "NotificationUser.aspx?Id=13443&Mode=0",
+      "published": null,
+      "snippet": "Reserve Bank of India [Conduct of Government Business by Agency Banks (ABs) – Payment of Agency Commission and Oversight of ABs] Directions, 2026",
+      "hash": "sha1:d6c0dafbebcaf4e9"
+    },
+    {
+      "source": "rbi_circulars",
+      "source_type": "page",
+      "title": "Reserve Bank of India [Disbursement of Government Pension by Agency Banks (ABs)] Directions, 2026",
+      "url": "NotificationUser.aspx?Id=13442&Mode=0",
+      "published": null,
+      "snippet": "Reserve Bank of India [Disbursement of Government Pension by Agency Banks (ABs)] Directions, 2026",
+      "hash": "sha1:9a36da3612162e3f"
+    },
+    {
+      "source": "rbi_circulars",
+      "source_type": "page",
+      "title": "Reserve Bank of India (All India Financial Institutions – Credit Risk Management) Second Amendment Directions, 2026",
+      "url": "NotificationUser.aspx?Id=13441&Mode=0",
+      "published": null,
+      "snippet": "Reserve Bank of India (All India Financial Institutions – Credit Risk Management) Second Amendment Directions, 2026",
+      "hash": "sha1:53a5a7097c5bed44"
+    },
+    {
+      "source": "rbi_circulars",
+      "source_type": "page",
+      "title": "Reserve Bank of India (All India Financial Institutions – Responsible Business Conduct) Amendment Directions, 2026",
+      "url": "NotificationUser.aspx?Id=13440&Mode=0",
+      "published": null,
+      "snippet": "Reserve Bank of India (All India Financial Institutions – Responsible Business Conduct) Amendment Directions, 2026",
+      "hash": "sha1:daa9b43d3adbbbd7"
+    },
+    {
+      "source": "rbi_circulars",
+      "source_type": "page",
+      "title": "Reserve Bank of India (All India Financial Institutions – Income Recognition, Asset Classification and Provisioning) Amendment Directions, 2026",
+      "url": "NotificationUser.aspx?Id=13439&Mode=0",
+      "published": null,
+      "snippet": "Reserve Bank of India (All India Financial Institutions – Income Recognition, Asset Classification and Provisioning) Amendment Directions, 2026",
+      "hash": "sha1:aa228962bcbfc974"
+    },
+    {
+      "source": "rbi_circulars",
+      "source_type": "page",
+      "title": "Reserve Bank of India (Regional Rural Banks – Credit Risk Management) Second Amendment Directions, 2026",
+      "url": "NotificationUser.aspx?Id=13438&Mode=0",
+      "published": null,
+      "snippet": "Reserve Bank of India (Regional Rural Banks – Credit Risk Management) Second Amendment Directions, 2026",
+      "hash": "sha1:e454d6c000b77240"
+    }
+  ]
+}
