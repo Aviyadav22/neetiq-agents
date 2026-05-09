@@ -28,6 +28,7 @@ YYYY-MM-DD HH:MM | AGENT | MODEL | PHASE | ACTION | RESULT | NEXT
 ## Starting state (2026-04-17, v2 migration)
 
 ```
+2026-05-09 10:00 | INTEL | haiku-4.5 | 2 | saturday scan: feed 404 fallback to 2026-05-08, 0 new items, D12 Trigger B fired (16th scan / 20 days, 6 sources dark) | OK | https://www.notion.so/35bd019711ad81858ac2c186141ef6fa
 2026-04-17 00:20 | COO | claude (v2 migration) | 2 | v2 scaffolding committed | OK | Version 2 agents/
 2026-04-17 00:20 | COO | claude (v2 migration) | 2 | v1 scheduled tasks disabled, v2 tasks registered | OK | scheduled-tasks MCP
 2026-04-17 00:20 | COO | claude (v2 migration) | 2 | Notion brain mirror created | OK | Notion > NeetiQ Autopilot v2
