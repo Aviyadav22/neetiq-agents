@@ -1,0 +1,221 @@
+{
+  "run_at": "2026-06-30T06:07:29Z",
+  "sources_polled": 13,
+  "sources_failed": [
+    "harvey",
+    "jhana",
+    "casetext_cocounsel",
+    "lexoo",
+    "meity_dpdp",
+    "startup_india_seed"
+  ],
+  "entries": [
+    {
+      "source": "spellbook",
+      "source_type": "rss",
+      "title": "Introducing the Spellbook Legal Fellowship Fund",
+      "url": "https://spellbook.com/blog/introducing-the-spellbook-legal-fellowship-fund",
+      "published": "2026-06-30T04:18:31Z",
+      "snippet": "",
+      "hash": "sha1:27f9643d5486d494"
+    },
+    {
+      "source": "spellbook",
+      "source_type": "rss",
+      "title": "Spellbook Labs Report: Humans Hallucinate Too",
+      "url": "https://spellbook.com/blog/humans-hallucinate-too",
+      "published": "2026-06-29T12:20:12Z",
+      "snippet": "",
+      "hash": "sha1:46520c5381904691"
+    },
+    {
+      "source": "spellbook",
+      "source_type": "rss",
+      "title": "Spellbook’s May Product Spotlight",
+      "url": "https://spellbook.com/blog/spellbooks-may-product-spotlight",
+      "published": "2026-06-05T19:40:40Z",
+      "snippet": "",
+      "hash": "sha1:bc15929ac148b796"
+    },
+    {
+      "source": "spellbook",
+      "source_type": "rss",
+      "title": "Introducing Preference Learning in Spellbook Reviews",
+      "url": "https://spellbook.com/blog/preference-learning",
+      "published": "2026-06-01T01:00:22Z",
+      "snippet": "",
+      "hash": "sha1:502f7b32e41005e9"
+    },
+    {
+      "source": "spellbook",
+      "source_type": "rss",
+      "title": "Introducing Proofread",
+      "url": "https://spellbook.com/blog/introducing-proofread",
+      "published": "2026-05-20T20:29:32Z",
+      "snippet": "",
+      "hash": "sha1:947be695c1d6b268"
+    },
+    {
+      "source": "spellbook",
+      "source_type": "rss",
+      "title": "How to Use Explain Section in Spellbook for Clear Legal Text",
+      "url": "https://spellbook.com/blog/explain-section",
+      "published": "2026-05-20T20:29:32Z",
+      "snippet": "Learn how to use Spellbook’s Explain Section spell to simplify complex legal clauses into plain English and improve understanding of contracts faster and easier.",
+      "hash": "sha1:b02475ae5a22dfcb"
+    },
+    {
+      "source": "spellbook",
+      "source_type": "rss",
+      "title": "Spellbook Raises $50m Series B led by Khosla Ventures",
+      "url": "https://spellbook.com/blog/series-b",
+      "published": "2026-05-09T20:15:30Z",
+      "snippet": "Today we’re announcing our Series B financing led by Keith Rabois at Khosla Ventures, including participation from Threshold Ventures, Inovia, Bling Capital and Moxxie Ventures.",
+      "hash": "sha1:7a598f0f026c3dcc"
+    },
+    {
+      "source": "spellbook",
+      "source_type": "rss",
+      "title": "Spellbook’s Academic Partner Program Launches with 50+ Law Schools",
+      "url": "https://spellbook.com/blog/academic-partner-program",
+      "published": "2026-05-09T20:15:30Z",
+      "snippet": "",
+      "hash": "sha1:841929059f296087"
+    },
+    {
+      "source": "spellbook",
+      "source_type": "rss",
+      "title": "AI in Legal Departments: 2025 Benchmarking Report",
+      "url": "https://spellbook.com/blog/counselwell",
+      "published": "2026-05-09T20:15:30Z",
+      "snippet": "AI is no longer a future topic for legal departments. It’s reshaping how legal teams get work done today.",
+      "hash": "sha1:de96ba7e7dd5cf39"
+    },
+    {
+      "source": "spellbook",
+      "source_type": "rss",
+      "title": "Announcing Spellbook's SOC 2 Compliance",
+      "url": "https://spellbook.com/blog/spellbook-soc2",
+      "published": "2026-05-09T20:15:30Z",
+      "snippet": "We’re proud to announce that Spellbook has achieved SOC 2 Type II compliance. This milestone reinforces our commitment to security, privacy, and trust—ensuring legal teams can confidently rely on our suite of AI tools.",
+      "hash": "sha1:ec3047f3d31e029f"
+    },
+    {
+      "source": "spellbook",
+      "source_type": "rss",
+      "title": "2025 AI and Law Predictions: Spellbook Insights",
+      "url": "https://spellbook.com/blog/ai-legaltech-predictions-2025",
+      "published": "2026-05-09T20:15:30Z",
+      "snippet": "Scott Stevenson predicts AI's impact on legaltech by 2025: AI colleagues, personalization, and industry consolidation. Discover the future of legal technology.",
+      "hash": "sha1:a36d18cb894dcf1f"
+    },
+    {
+      "source": "spellbook",
+      "source_type": "rss",
+      "title": "How o1 Is Transforming Legal AI Workflows",
+      "url": "https://spellbook.com/blog/openai-o1-for-law-legal-spellbook",
+      "published": "2026-05-09T20:15:30Z",
+      "snippet": "OpenAI's o1 model revolutionizes Legal AI with enhanced document revision, legal calculations, and comprehensive agent workflows.",
+      "hash": "sha1:878e7139d2526226"
+    },
+    {
+      "source": "spellbook",
+      "source_type": "rss",
+      "title": "Introducing Spellbook: AI Legal Assistant for Lawyers",
+      "url": "https://spellbook.com/blog/spellbook-associate",
+      "published": "2026-05-09T20:15:30Z",
+      "snippet": "Launch of Spellbook Associate: The first AI agent for lawyers, revolutionizing legal AI. Discover the next generation of legal technology today!",
+      "hash": "sha1:638dccfbf2d7775d"
+    },
+    {
+      "source": "spellbook",
+      "source_type": "rss",
+      "title": "Spellbook Secures $10.9M to Enhance AI Tools for Lawyers",
+      "url": "https://spellbook.com/blog/spellbook-raises-10-9m-usd-in-funding",
+      "published": "2026-05-09T20:15:30Z",
+      "snippet": "$10.9M raised to enhance legal professionals with Assistive AI. Discover how our innovative solutions are transforming the legal industry.",
+      "hash": "sha1:aa706667b9dbffc2"
+    },
+    {
+      "source": "spellbook",
+      "source_type": "rss",
+      "title": "Using Spellbook: Crafting Email Contract Summaries",
+      "url": "https://spellbook.com/blog/how-i-use-spellbook-creating-contract-summaries-for-emails",
+      "published": "2026-05-09T20:15:30Z",
+      "snippet": "Discover how startup lawyer Chris Brown utilizes Spellbook to efficiently summarize contracts for clients, enhancing legal services and client satisfaction.",
+      "hash": "sha1:2ec5a097839b81e0"
+    },
+    {
+      "source": "rbi_circulars",
+      "source_type": "page",
+      "title": "Foreign Exchange Management (Deposit) (Sixth Amendment) Regulations, 2026",
+      "url": "NotificationUser.aspx?Id=13553&Mode=0",
+      "published": null,
+      "snippet": "Foreign Exchange Management (Deposit) (Sixth Amendment) Regulations, 2026",
+      "hash": "sha1:10bf12372fb0560c"
+    },
+    {
+      "source": "rbi_circulars",
+      "source_type": "page",
+      "title": "Master Direction – Reserve Bank of India (Credit Derivatives) Directions, 2026",
+      "url": "NotificationUser.aspx?Id=13552&Mode=0",
+      "published": null,
+      "snippet": "Master Direction – Reserve Bank of India (Credit Derivatives) Directions, 2026",
+      "hash": "sha1:8be62abfa1682a5f"
+    },
+    {
+      "source": "rbi_circulars",
+      "source_type": "page",
+      "title": "Review of Circulars issued under Foreign Exchange Management Act, 1999 (FEMA)",
+      "url": "NotificationUser.aspx?Id=13551&Mode=0",
+      "published": null,
+      "snippet": "Review of Circulars issued under Foreign Exchange Management Act, 1999 (FEMA)",
+      "hash": "sha1:e76eea01ba3b91de"
+    },
+    {
+      "source": "rbi_circulars",
+      "source_type": "page",
+      "title": "Modification of Returns / Reporting requirements under FEMA, 1999",
+      "url": "NotificationUser.aspx?Id=13550&Mode=0",
+      "published": null,
+      "snippet": "Modification of Returns / Reporting requirements under FEMA, 1999",
+      "hash": "sha1:16cd4dab2e7eb2b8"
+    },
+    {
+      "source": "rbi_circulars",
+      "source_type": "page",
+      "title": "Reserve Bank of India (Rural Co-operative Banks - Responsible Business Conduct) Third Amendment Directions, 2026",
+      "url": "NotificationUser.aspx?Id=13549&Mode=0",
+      "published": null,
+      "snippet": "Reserve Bank of India (Rural Co-operative Banks - Responsible Business Conduct) Third Amendment Directions, 2026",
+      "hash": "sha1:6c275d18591b892c"
+    },
+    {
+      "source": "rbi_circulars",
+      "source_type": "page",
+      "title": "Reserve Bank of India (Urban Co-operative Banks - Responsible Business Conduct) Third Amendment Directions, 2026",
+      "url": "NotificationUser.aspx?Id=13548&Mode=0",
+      "published": null,
+      "snippet": "Reserve Bank of India (Urban Co-operative Banks - Responsible Business Conduct) Third Amendment Directions, 2026",
+      "hash": "sha1:8ae17129b5bdf8b7"
+    },
+    {
+      "source": "rbi_circulars",
+      "source_type": "page",
+      "title": "Reserve Bank of India (Regional Rural Banks - Responsible Business Conduct) Third Amendment Directions, 2026",
+      "url": "NotificationUser.aspx?Id=13547&Mode=0",
+      "published": null,
+      "snippet": "Reserve Bank of India (Regional Rural Banks - Responsible Business Conduct) Third Amendment Directions, 2026",
+      "hash": "sha1:28b88776e2656a4e"
+    },
+    {
+      "source": "rbi_circulars",
+      "source_type": "page",
+      "title": "Reserve Bank of India (Local Area Banks - Responsible Business Conduct) Third Amendment Directions, 2026",
+      "url": "NotificationUser.aspx?Id=13546&Mode=0",
+      "published": null,
+      "snippet": "Reserve Bank of India (Local Area Banks - Responsible Business Conduct) Third Amendment Directions, 2026",
+      "hash": "sha1:c495b3b1a64ed436"
+    }
+  ]
+}
