@@ -1,0 +1,221 @@
+{
+  "run_at": "2026-07-24T05:17:10Z",
+  "sources_polled": 13,
+  "sources_failed": [
+    "harvey",
+    "jhana",
+    "casetext_cocounsel",
+    "lexoo",
+    "meity_dpdp",
+    "startup_india_seed"
+  ],
+  "entries": [
+    {
+      "source": "spellbook",
+      "source_type": "rss",
+      "title": "Introducing Spellbook for Google Docs",
+      "url": "https://spellbook.com/blog/introducing-spellbook-for-google-docs",
+      "published": "2026-07-23T13:31:20Z",
+      "snippet": "",
+      "hash": "sha1:05a177e3d888e0db"
+    },
+    {
+      "source": "spellbook",
+      "source_type": "rss",
+      "title": "Introducing Proofread",
+      "url": "https://spellbook.com/blog/introducing-proofread",
+      "published": "2026-07-20T16:00:02Z",
+      "snippet": "",
+      "hash": "sha1:947be695c1d6b268"
+    },
+    {
+      "source": "spellbook",
+      "source_type": "rss",
+      "title": "Spellbook’s June Product Spotlight",
+      "url": "https://spellbook.com/blog/spellbooks-june-product-spotlight",
+      "published": "2026-07-13T21:18:06Z",
+      "snippet": "",
+      "hash": "sha1:ac6944fb06f4a662"
+    },
+    {
+      "source": "spellbook",
+      "source_type": "rss",
+      "title": "Faster, Smarter Playbooks",
+      "url": "https://spellbook.com/blog/faster-smarter-playbooks",
+      "published": "2026-07-09T21:30:17Z",
+      "snippet": "Add fallbacks, build from model docs, and generate powerful rules with AI.",
+      "hash": "sha1:470df14510157ed0"
+    },
+    {
+      "source": "spellbook",
+      "source_type": "rss",
+      "title": "Introducing Autonomous Contract Management",
+      "url": "https://spellbook.com/blog/introducing-acm",
+      "published": "2026-07-09T01:42:07Z",
+      "snippet": "Spellbook started as the copilot for lawyers. ACM is our next chapter, the infrastructure that puts your contracts on rails.",
+      "hash": "sha1:b7d58efcfc8956cb"
+    },
+    {
+      "source": "spellbook",
+      "source_type": "rss",
+      "title": "Spellbook Raises $50m Series B led by Khosla Ventures",
+      "url": "https://spellbook.com/blog/series-b",
+      "published": "2026-07-09T01:42:07Z",
+      "snippet": "Today we’re announcing our Series B financing led by Keith Rabois at Khosla Ventures, including participation from Threshold Ventures, Inovia, Bling Capital and Moxxie Ventures.",
+      "hash": "sha1:7a598f0f026c3dcc"
+    },
+    {
+      "source": "spellbook",
+      "source_type": "rss",
+      "title": "Introducing the Spellbook Legal Fellowship Fund",
+      "url": "https://spellbook.com/blog/introducing-the-spellbook-legal-fellowship-fund",
+      "published": "2026-06-30T04:18:31Z",
+      "snippet": "",
+      "hash": "sha1:27f9643d5486d494"
+    },
+    {
+      "source": "spellbook",
+      "source_type": "rss",
+      "title": "Spellbook Labs Report: Humans Hallucinate Too",
+      "url": "https://spellbook.com/blog/humans-hallucinate-too",
+      "published": "2026-06-29T12:20:12Z",
+      "snippet": "",
+      "hash": "sha1:46520c5381904691"
+    },
+    {
+      "source": "spellbook",
+      "source_type": "rss",
+      "title": "Spellbook’s May Product Spotlight",
+      "url": "https://spellbook.com/blog/spellbooks-may-product-spotlight",
+      "published": "2026-06-05T19:40:40Z",
+      "snippet": "",
+      "hash": "sha1:bc15929ac148b796"
+    },
+    {
+      "source": "spellbook",
+      "source_type": "rss",
+      "title": "Introducing Preference Learning in Spellbook Reviews",
+      "url": "https://spellbook.com/blog/preference-learning",
+      "published": "2026-06-01T01:00:22Z",
+      "snippet": "",
+      "hash": "sha1:502f7b32e41005e9"
+    },
+    {
+      "source": "spellbook",
+      "source_type": "rss",
+      "title": "How to Use Explain Section in Spellbook for Clear Legal Text",
+      "url": "https://spellbook.com/blog/explain-section",
+      "published": "2026-05-20T20:29:32Z",
+      "snippet": "Learn how to use Spellbook’s Explain Section spell to simplify complex legal clauses into plain English and improve understanding of contracts faster and easier.",
+      "hash": "sha1:b02475ae5a22dfcb"
+    },
+    {
+      "source": "spellbook",
+      "source_type": "rss",
+      "title": "Spellbook’s Academic Partner Program Launches with 50+ Law Schools",
+      "url": "https://spellbook.com/blog/academic-partner-program",
+      "published": "2026-05-09T20:15:30Z",
+      "snippet": "",
+      "hash": "sha1:841929059f296087"
+    },
+    {
+      "source": "spellbook",
+      "source_type": "rss",
+      "title": "AI in Legal Departments: 2025 Benchmarking Report",
+      "url": "https://spellbook.com/blog/counselwell",
+      "published": "2026-05-09T20:15:30Z",
+      "snippet": "AI is no longer a future topic for legal departments. It’s reshaping how legal teams get work done today.",
+      "hash": "sha1:de96ba7e7dd5cf39"
+    },
+    {
+      "source": "spellbook",
+      "source_type": "rss",
+      "title": "Announcing Spellbook's SOC 2 Compliance",
+      "url": "https://spellbook.com/blog/spellbook-soc2",
+      "published": "2026-05-09T20:15:30Z",
+      "snippet": "We’re proud to announce that Spellbook has achieved SOC 2 Type II compliance. This milestone reinforces our commitment to security, privacy, and trust—ensuring legal teams can confidently rely on our suite of AI tools.",
+      "hash": "sha1:ec3047f3d31e029f"
+    },
+    {
+      "source": "spellbook",
+      "source_type": "rss",
+      "title": "2025 AI and Law Predictions: Spellbook Insights",
+      "url": "https://spellbook.com/blog/ai-legaltech-predictions-2025",
+      "published": "2026-05-09T20:15:30Z",
+      "snippet": "Scott Stevenson predicts AI's impact on legaltech by 2025: AI colleagues, personalization, and industry consolidation. Discover the future of legal technology.",
+      "hash": "sha1:a36d18cb894dcf1f"
+    },
+    {
+      "source": "rbi_circulars",
+      "source_type": "page",
+      "title": "Special Rupee Vostro Accounts (SRVAs)",
+      "url": "NotificationUser.aspx?Id=13581&Mode=0",
+      "published": null,
+      "snippet": "Special Rupee Vostro Accounts (SRVAs)",
+      "hash": "sha1:f3e47c4bd43584a0"
+    },
+    {
+      "source": "rbi_circulars",
+      "source_type": "page",
+      "title": "Reserve Bank of India (Local Area Banks – Income Recognition, Asset Classification and Provisioning) Second Amendment Directions, 2026",
+      "url": "NotificationUser.aspx?Id=13580&Mode=0",
+      "published": null,
+      "snippet": "Reserve Bank of India (Local Area Banks – Income Recognition, Asset Classification and Provisioning) Second Amendment Directions, 2026",
+      "hash": "sha1:90bd4ff2e1ac1b3f"
+    },
+    {
+      "source": "rbi_circulars",
+      "source_type": "page",
+      "title": "Reserve Bank of India (Regional Rural Banks – Income Recognition, Asset Classification and Provisioning) Second Amendment Directions, 2026",
+      "url": "NotificationUser.aspx?Id=13579&Mode=0",
+      "published": null,
+      "snippet": "Reserve Bank of India (Regional Rural Banks – Income Recognition, Asset Classification and Provisioning) Second Amendment Directions, 2026",
+      "hash": "sha1:199070748a4eeb60"
+    },
+    {
+      "source": "rbi_circulars",
+      "source_type": "page",
+      "title": "Reserve Bank of India (Rural Co-operative Banks – Income Recognition, Asset Classification and Provisioning) Third Amendment Directions, 2026",
+      "url": "NotificationUser.aspx?Id=13578&Mode=0",
+      "published": null,
+      "snippet": "Reserve Bank of India (Rural Co-operative Banks – Income Recognition, Asset Classification and Provisioning) Third Amendment Directions, 2026",
+      "hash": "sha1:0c40bf523687713a"
+    },
+    {
+      "source": "rbi_circulars",
+      "source_type": "page",
+      "title": "Reserve Bank of India (Urban Cooperative Banks – Income Recognition, Asset Classification and Provisioning) Second Amendment Directions, 2026",
+      "url": "NotificationUser.aspx?Id=13577&Mode=0",
+      "published": null,
+      "snippet": "Reserve Bank of India (Urban Cooperative Banks – Income Recognition, Asset Classification and Provisioning) Second Amendment Directions, 2026",
+      "hash": "sha1:328a0085bc9715c7"
+    },
+    {
+      "source": "rbi_circulars",
+      "source_type": "page",
+      "title": "Reserve Bank of India (All India Financial Institutions – Income Recognition, Asset Classification and Provisioning) Second Amendment Directions, 2026",
+      "url": "NotificationUser.aspx?Id=13576&Mode=0",
+      "published": null,
+      "snippet": "Reserve Bank of India (All India Financial Institutions – Income Recognition, Asset Classification and Provisioning) Second Amendment Directions, 2026",
+      "hash": "sha1:0d34a1758a584ef4"
+    },
+    {
+      "source": "rbi_circulars",
+      "source_type": "page",
+      "title": "Reserve Bank of India (Non-Banking Financial Companies Income Recognition, Asset Classification and Provisioning) Third Amendment Directions, 2026",
+      "url": "NotificationUser.aspx?Id=13575&Mode=0",
+      "published": null,
+      "snippet": "Reserve Bank of India (Non-Banking Financial Companies Income Recognition, Asset Classification and Provisioning) Third Amendment Directions, 2026",
+      "hash": "sha1:90e299a4b678ff75"
+    },
+    {
+      "source": "rbi_circulars",
+      "source_type": "page",
+      "title": "Reserve Bank of India (Small Finance Banks – Income Recognition, Asset Classification and Provisioning) Second Amendment Directions, 2026",
+      "url": "NotificationUser.aspx?Id=13574&Mode=0",
+      "published": null,
+      "snippet": "Reserve Bank of India (Small Finance Banks – Income Recognition, Asset Classification and Provisioning) Second Amendment Directions, 2026",
+      "hash": "sha1:d7694dd9e2533ed5"
+    }
+  ]
+}
