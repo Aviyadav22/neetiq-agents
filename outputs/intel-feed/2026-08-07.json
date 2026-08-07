@@ -1,0 +1,194 @@
+{
+  "run_at": "2026-08-07T04:22:49Z",
+  "sources_polled": 13,
+  "sources_failed": [
+    "harvey",
+    "jhana",
+    "casetext_cocounsel",
+    "lexoo",
+    "meity_dpdp",
+    "startup_india_seed"
+  ],
+  "entries": [
+    {
+      "source": "spellbook",
+      "source_type": "rss",
+      "title": "Introducing Autonomous Contract Management",
+      "url": "https://spellbook.com/blog/introducing-acm",
+      "published": "2026-08-05T06:51:46Z",
+      "snippet": "Spellbook started as the copilot for lawyers. ACM is our next chapter, the infrastructure that puts your contracts on rails.",
+      "hash": "sha1:b7d58efcfc8956cb"
+    },
+    {
+      "source": "spellbook",
+      "source_type": "rss",
+      "title": "Introducing Spellbook: AI Legal Assistant for Lawyers",
+      "url": "https://spellbook.com/blog/spellbook-associate",
+      "published": "2026-08-05T06:49:30Z",
+      "snippet": "Launch of Spellbook Associate: The first AI agent for lawyers, revolutionizing legal AI. Discover the next generation of legal technology today!",
+      "hash": "sha1:638dccfbf2d7775d"
+    },
+    {
+      "source": "spellbook",
+      "source_type": "rss",
+      "title": "Spellbook Secures $10.9M to Enhance AI Tools for Lawyers",
+      "url": "https://spellbook.com/blog/spellbook-raises-10-9m-usd-in-funding",
+      "published": "2026-08-05T06:46:37Z",
+      "snippet": "$10.9M raised to enhance legal professionals with Assistive AI. Discover how our innovative solutions are transforming the legal industry.",
+      "hash": "sha1:aa706667b9dbffc2"
+    },
+    {
+      "source": "spellbook",
+      "source_type": "rss",
+      "title": "Spellbook Raises $50m Series B led by Khosla Ventures",
+      "url": "https://spellbook.com/blog/series-b",
+      "published": "2026-08-05T06:40:31Z",
+      "snippet": "Today we’re announcing our Series B financing led by Keith Rabois at Khosla Ventures, including participation from Threshold Ventures, Inovia, Bling Capital and Moxxie Ventures.",
+      "hash": "sha1:7a598f0f026c3dcc"
+    },
+    {
+      "source": "spellbook",
+      "source_type": "rss",
+      "title": "Spellbook Secures $20M After 10x Revenue Surge & Global Growth",
+      "url": "https://spellbook.com/blog/spellbook-raises-20m-following-10x-revenue-growth-and-global-expansion",
+      "published": "2026-08-05T06:39:07Z",
+      "snippet": "Spellbook secures major funding from Inovia Capital, boosting growth and doubling total investment. Discover how this impacts the company's future.",
+      "hash": "sha1:931612ee467df1c5"
+    },
+    {
+      "source": "spellbook",
+      "source_type": "rss",
+      "title": "How o1 is Transforming Legal AI Workflows",
+      "url": "https://spellbook.com/blog/openai-o1-for-law-legal-spellbook",
+      "published": "2026-08-05T06:34:39Z",
+      "snippet": "OpenAI's o1 model revolutionizes Legal AI with enhanced document revision, legal calculations, and comprehensive agent workflows.",
+      "hash": "sha1:9ff68168cdb50150"
+    },
+    {
+      "source": "spellbook",
+      "source_type": "rss",
+      "title": "Introducing Spellbook's 2026 State of Contracts Report",
+      "url": "https://spellbook.com/blog/2026-state-of-contracts-report",
+      "published": "2026-07-27T13:14:57Z",
+      "snippet": "",
+      "hash": "sha1:44cb46ad0fa5248e"
+    },
+    {
+      "source": "spellbook",
+      "source_type": "rss",
+      "title": "Introducing Spellbook for Google Docs",
+      "url": "https://spellbook.com/blog/introducing-spellbook-for-google-docs",
+      "published": "2026-07-24T17:10:27Z",
+      "snippet": "",
+      "hash": "sha1:05a177e3d888e0db"
+    },
+    {
+      "source": "spellbook",
+      "source_type": "rss",
+      "title": "Introducing Proofread",
+      "url": "https://spellbook.com/blog/introducing-proofread",
+      "published": "2026-07-20T16:00:02Z",
+      "snippet": "",
+      "hash": "sha1:947be695c1d6b268"
+    },
+    {
+      "source": "spellbook",
+      "source_type": "rss",
+      "title": "Spellbook’s June Product Spotlight",
+      "url": "https://spellbook.com/blog/spellbooks-june-product-spotlight",
+      "published": "2026-07-13T21:18:06Z",
+      "snippet": "",
+      "hash": "sha1:ac6944fb06f4a662"
+    },
+    {
+      "source": "spellbook",
+      "source_type": "rss",
+      "title": "Faster, Smarter Playbooks",
+      "url": "https://spellbook.com/blog/faster-smarter-playbooks",
+      "published": "2026-07-09T21:30:17Z",
+      "snippet": "Add fallbacks, build from model docs, and generate powerful rules with AI.",
+      "hash": "sha1:470df14510157ed0"
+    },
+    {
+      "source": "spellbook",
+      "source_type": "rss",
+      "title": "Introducing the Spellbook Legal Fellowship Fund",
+      "url": "https://spellbook.com/blog/introducing-the-spellbook-legal-fellowship-fund",
+      "published": "2026-06-30T04:18:31Z",
+      "snippet": "",
+      "hash": "sha1:27f9643d5486d494"
+    },
+    {
+      "source": "spellbook",
+      "source_type": "rss",
+      "title": "Spellbook Labs Report: Humans Hallucinate Too",
+      "url": "https://spellbook.com/blog/humans-hallucinate-too",
+      "published": "2026-06-29T12:20:12Z",
+      "snippet": "",
+      "hash": "sha1:46520c5381904691"
+    },
+    {
+      "source": "spellbook",
+      "source_type": "rss",
+      "title": "Spellbook’s May Product Spotlight",
+      "url": "https://spellbook.com/blog/spellbooks-may-product-spotlight",
+      "published": "2026-06-05T19:40:40Z",
+      "snippet": "",
+      "hash": "sha1:bc15929ac148b796"
+    },
+    {
+      "source": "spellbook",
+      "source_type": "rss",
+      "title": "Introducing Preference Learning in Spellbook Reviews",
+      "url": "https://spellbook.com/blog/preference-learning",
+      "published": "2026-06-01T01:00:22Z",
+      "snippet": "",
+      "hash": "sha1:502f7b32e41005e9"
+    },
+    {
+      "source": "rbi_circulars",
+      "source_type": "page",
+      "title": "Reserve Bank of India (Local Area Banks - Responsible Business Conduct) Fourth Amendment Directions, 2026",
+      "url": "NotificationUser.aspx?Id=13667&Mode=0",
+      "published": null,
+      "snippet": "Reserve Bank of India (Local Area Banks - Responsible Business Conduct) Fourth Amendment Directions, 2026",
+      "hash": "sha1:010eef06a1a27007"
+    },
+    {
+      "source": "rbi_circulars",
+      "source_type": "page",
+      "title": "Reserve Bank of India (Small Finance Banks - Responsible Business Conduct) Fourth Amendment Directions, 2026",
+      "url": "NotificationUser.aspx?Id=13666&Mode=0",
+      "published": null,
+      "snippet": "Reserve Bank of India (Small Finance Banks - Responsible Business Conduct) Fourth Amendment Directions, 2026",
+      "hash": "sha1:364702d48ecd4067"
+    },
+    {
+      "source": "rbi_circulars",
+      "source_type": "page",
+      "title": "Reserve Bank of India (Commercial Banks - Responsible Business Conduct) Fourth Amendment Directions, 2026",
+      "url": "NotificationUser.aspx?Id=13665&Mode=0",
+      "published": null,
+      "snippet": "Reserve Bank of India (Commercial Banks - Responsible Business Conduct) Fourth Amendment Directions, 2026",
+      "hash": "sha1:c4a414263f562ef5"
+    },
+    {
+      "source": "rbi_circulars",
+      "source_type": "page",
+      "title": "Implementation of Section 51A of UAPA, 1967: Updates to UNSC’s 1988 (2011) Taliban Sanctions List: Amendment of 05 Entries:",
+      "url": "NotificationUser.aspx?Id=13664&Mode=0",
+      "published": null,
+      "snippet": "Implementation of Section 51A of UAPA, 1967: Updates to UNSC’s 1988 (2011) Taliban Sanctions List: Amendment of 05 Entries:",
+      "hash": "sha1:f7f2a2d34cd32136"
+    },
+    {
+      "source": "rbi_circulars",
+      "source_type": "page",
+      "title": "Consolidation of Supervisory Instructions – Repeal of Circulars",
+      "url": "NotificationUser.aspx?Id=13663&Mode=0",
+      "published": null,
+      "snippet": "Consolidation of Supervisory Instructions – Repeal of Circulars",
+      "hash": "sha1:fac65531a0d7c9f6"
+    }
+  ]
+}
