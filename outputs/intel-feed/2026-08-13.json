@@ -1,0 +1,221 @@
+{
+  "run_at": "2026-08-13T04:06:47Z",
+  "sources_polled": 13,
+  "sources_failed": [
+    "harvey",
+    "jhana",
+    "casetext_cocounsel",
+    "lexoo",
+    "meity_dpdp",
+    "startup_india_seed"
+  ],
+  "entries": [
+    {
+      "source": "spellbook",
+      "source_type": "rss",
+      "title": "Spellbook Launches Channel Partner Program",
+      "url": "https://spellbook.com/blog/introducing-spellbook-channel-partner-program",
+      "published": "2026-08-12T16:33:58Z",
+      "snippet": "",
+      "hash": "sha1:c40e6ce1f7718fc7"
+    },
+    {
+      "source": "spellbook",
+      "source_type": "rss",
+      "title": "2025 AI and Law Predictions: Spellbook Insights",
+      "url": "https://spellbook.com/blog/ai-legaltech-predictions-2025",
+      "published": "2026-08-08T16:06:18Z",
+      "snippet": "Scott Stevenson predicts AI's impact on legaltech by 2025: AI colleagues, personalization, and industry consolidation. Discover the future of legal technology.",
+      "hash": "sha1:a36d18cb894dcf1f"
+    },
+    {
+      "source": "spellbook",
+      "source_type": "rss",
+      "title": "Introducing Autonomous Contract Management",
+      "url": "https://spellbook.com/blog/introducing-acm",
+      "published": "2026-08-05T06:51:46Z",
+      "snippet": "Spellbook started as the copilot for lawyers. ACM is our next chapter, the infrastructure that puts your contracts on rails.",
+      "hash": "sha1:b7d58efcfc8956cb"
+    },
+    {
+      "source": "spellbook",
+      "source_type": "rss",
+      "title": "Introducing Spellbook: AI Legal Assistant for Lawyers",
+      "url": "https://spellbook.com/blog/spellbook-associate",
+      "published": "2026-08-05T06:49:30Z",
+      "snippet": "Launch of Spellbook Associate: The first AI agent for lawyers, revolutionizing legal AI. Discover the next generation of legal technology today!",
+      "hash": "sha1:638dccfbf2d7775d"
+    },
+    {
+      "source": "spellbook",
+      "source_type": "rss",
+      "title": "Spellbook Secures $10.9M to Enhance AI Tools for Lawyers",
+      "url": "https://spellbook.com/blog/spellbook-raises-10-9m-usd-in-funding",
+      "published": "2026-08-05T06:46:37Z",
+      "snippet": "$10.9M raised to enhance legal professionals with Assistive AI. Discover how our innovative solutions are transforming the legal industry.",
+      "hash": "sha1:aa706667b9dbffc2"
+    },
+    {
+      "source": "spellbook",
+      "source_type": "rss",
+      "title": "Spellbook Raises $50m Series B led by Khosla Ventures",
+      "url": "https://spellbook.com/blog/series-b",
+      "published": "2026-08-05T06:40:31Z",
+      "snippet": "Today we’re announcing our Series B financing led by Keith Rabois at Khosla Ventures, including participation from Threshold Ventures, Inovia, Bling Capital and Moxxie Ventures.",
+      "hash": "sha1:7a598f0f026c3dcc"
+    },
+    {
+      "source": "spellbook",
+      "source_type": "rss",
+      "title": "Spellbook Secures $20M After 10x Revenue Surge & Global Growth",
+      "url": "https://spellbook.com/blog/spellbook-raises-20m-following-10x-revenue-growth-and-global-expansion",
+      "published": "2026-08-05T06:39:07Z",
+      "snippet": "Spellbook secures major funding from Inovia Capital, boosting growth and doubling total investment. Discover how this impacts the company's future.",
+      "hash": "sha1:931612ee467df1c5"
+    },
+    {
+      "source": "spellbook",
+      "source_type": "rss",
+      "title": "How o1 is Transforming Legal AI Workflows",
+      "url": "https://spellbook.com/blog/openai-o1-for-law-legal-spellbook",
+      "published": "2026-08-05T06:34:39Z",
+      "snippet": "OpenAI's o1 model revolutionizes Legal AI with enhanced document revision, legal calculations, and comprehensive agent workflows.",
+      "hash": "sha1:9ff68168cdb50150"
+    },
+    {
+      "source": "spellbook",
+      "source_type": "rss",
+      "title": "Introducing Spellbook's 2026 State of Contracts Report",
+      "url": "https://spellbook.com/blog/2026-state-of-contracts-report",
+      "published": "2026-07-27T13:14:57Z",
+      "snippet": "",
+      "hash": "sha1:44cb46ad0fa5248e"
+    },
+    {
+      "source": "spellbook",
+      "source_type": "rss",
+      "title": "Introducing Spellbook for Google Docs",
+      "url": "https://spellbook.com/blog/introducing-spellbook-for-google-docs",
+      "published": "2026-07-24T17:10:27Z",
+      "snippet": "",
+      "hash": "sha1:05a177e3d888e0db"
+    },
+    {
+      "source": "spellbook",
+      "source_type": "rss",
+      "title": "Introducing Proofread",
+      "url": "https://spellbook.com/blog/introducing-proofread",
+      "published": "2026-07-20T16:00:02Z",
+      "snippet": "",
+      "hash": "sha1:947be695c1d6b268"
+    },
+    {
+      "source": "spellbook",
+      "source_type": "rss",
+      "title": "Spellbook’s June Product Spotlight",
+      "url": "https://spellbook.com/blog/spellbooks-june-product-spotlight",
+      "published": "2026-07-13T21:18:06Z",
+      "snippet": "",
+      "hash": "sha1:ac6944fb06f4a662"
+    },
+    {
+      "source": "spellbook",
+      "source_type": "rss",
+      "title": "Faster, Smarter Playbooks",
+      "url": "https://spellbook.com/blog/faster-smarter-playbooks",
+      "published": "2026-07-09T21:30:17Z",
+      "snippet": "Add fallbacks, build from model docs, and generate powerful rules with AI.",
+      "hash": "sha1:470df14510157ed0"
+    },
+    {
+      "source": "spellbook",
+      "source_type": "rss",
+      "title": "Introducing the Spellbook Legal Fellowship Fund",
+      "url": "https://spellbook.com/blog/introducing-the-spellbook-legal-fellowship-fund",
+      "published": "2026-06-30T04:18:31Z",
+      "snippet": "",
+      "hash": "sha1:27f9643d5486d494"
+    },
+    {
+      "source": "spellbook",
+      "source_type": "rss",
+      "title": "Spellbook Labs Report: Humans Hallucinate Too",
+      "url": "https://spellbook.com/blog/humans-hallucinate-too",
+      "published": "2026-06-29T12:20:12Z",
+      "snippet": "",
+      "hash": "sha1:46520c5381904691"
+    },
+    {
+      "source": "rbi_circulars",
+      "source_type": "page",
+      "title": "Formation of new districts in the Union Territory of Ladakh – Assignment of Lead Bank Responsibility",
+      "url": "NotificationUser.aspx?Id=13675&Mode=0",
+      "published": null,
+      "snippet": "Formation of new districts in the Union Territory of Ladakh – Assignment of Lead Bank Responsibility",
+      "hash": "sha1:9e3c84a11f1a8b8b"
+    },
+    {
+      "source": "rbi_circulars",
+      "source_type": "page",
+      "title": "Reserve Bank of India (Priority Sector Lending – Targets and Classification) Second Amendment Directions, 2026",
+      "url": "NotificationUser.aspx?Id=13674&Mode=0",
+      "published": null,
+      "snippet": "Reserve Bank of India (Priority Sector Lending – Targets and Classification) Second Amendment Directions, 2026",
+      "hash": "sha1:1f7e3d31c32a2a09"
+    },
+    {
+      "source": "rbi_circulars",
+      "source_type": "page",
+      "title": "Reserve Bank of India (Housing Finance Companies) Third Amendment Directions, 2026",
+      "url": "NotificationUser.aspx?Id=13673&Mode=0",
+      "published": null,
+      "snippet": "Reserve Bank of India (Housing Finance Companies) Third Amendment Directions, 2026",
+      "hash": "sha1:770477981413d725"
+    },
+    {
+      "source": "rbi_circulars",
+      "source_type": "page",
+      "title": "Reserve Bank of India (Non-Banking Financial Companies - Responsible Business Conduct) Third Amendment Directions, 2026",
+      "url": "NotificationUser.aspx?Id=13672&Mode=0",
+      "published": null,
+      "snippet": "Reserve Bank of India (Non-Banking Financial Companies - Responsible Business Conduct) Third Amendment Directions, 2026",
+      "hash": "sha1:ed2baaf092530f33"
+    },
+    {
+      "source": "rbi_circulars",
+      "source_type": "page",
+      "title": "Reserve Bank of India (All India Financial Institutions - Responsible Business Conduct) Third Amendment Directions, 2026",
+      "url": "NotificationUser.aspx?Id=13671&Mode=0",
+      "published": null,
+      "snippet": "Reserve Bank of India (All India Financial Institutions - Responsible Business Conduct) Third Amendment Directions, 2026",
+      "hash": "sha1:83b739b4c073ea81"
+    },
+    {
+      "source": "rbi_circulars",
+      "source_type": "page",
+      "title": "Reserve Bank of India (Rural Co-operative Banks - Responsible Business Conduct) Fourth Amendment Directions, 2026",
+      "url": "NotificationUser.aspx?Id=13670&Mode=0",
+      "published": null,
+      "snippet": "Reserve Bank of India (Rural Co-operative Banks - Responsible Business Conduct) Fourth Amendment Directions, 2026",
+      "hash": "sha1:3541e9d2805edcb3"
+    },
+    {
+      "source": "rbi_circulars",
+      "source_type": "page",
+      "title": "Reserve Bank of India (Urban Co-operative Banks - Responsible Business Conduct) Fourth Amendment Directions, 2026",
+      "url": "NotificationUser.aspx?Id=13669&Mode=0",
+      "published": null,
+      "snippet": "Reserve Bank of India (Urban Co-operative Banks - Responsible Business Conduct) Fourth Amendment Directions, 2026",
+      "hash": "sha1:edb46ae68232979c"
+    },
+    {
+      "source": "rbi_circulars",
+      "source_type": "page",
+      "title": "Reserve Bank of India (Regional Rural Banks - Responsible Business Conduct) Fourth Amendment Directions, 2026",
+      "url": "NotificationUser.aspx?Id=13668&Mode=0",
+      "published": null,
+      "snippet": "Reserve Bank of India (Regional Rural Banks - Responsible Business Conduct) Fourth Amendment Directions, 2026",
+      "hash": "sha1:b57d25563af449ca"
+    }
+  ]
+}
