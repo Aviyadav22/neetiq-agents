@@ -1,0 +1,221 @@
+{
+  "run_at": "2026-09-16T07:07:03Z",
+  "sources_polled": 13,
+  "sources_failed": [
+    "harvey",
+    "jhana",
+    "casetext_cocounsel",
+    "lexoo",
+    "meity_dpdp",
+    "startup_india_seed"
+  ],
+  "entries": [
+    {
+      "source": "spellbook",
+      "source_type": "rss",
+      "title": "Spellbook's August Product Spotlight",
+      "url": "https://spellbook.com/blog/spellbooks-august-product-spotlight",
+      "published": "2026-09-15T14:14:09Z",
+      "snippet": "",
+      "hash": "sha1:c26094861a905e3f"
+    },
+    {
+      "source": "spellbook",
+      "source_type": "rss",
+      "title": "Meet Anthony Ross, Spellbook’s First Legal Fellow",
+      "url": "https://spellbook.com/blog/spellbooks-first-legal-fellow",
+      "published": "2026-09-10T13:25:16Z",
+      "snippet": "Meet Anthony Ross, the Spellbook Fellow Rethinking M&A Disclosure Schedules",
+      "hash": "sha1:54c3386920d54a65"
+    },
+    {
+      "source": "spellbook",
+      "source_type": "rss",
+      "title": "Introducing Spellbook for Google Docs",
+      "url": "https://spellbook.com/blog/introducing-spellbook-for-google-docs",
+      "published": "2026-09-10T13:25:16Z",
+      "snippet": "",
+      "hash": "sha1:05a177e3d888e0db"
+    },
+    {
+      "source": "spellbook",
+      "source_type": "rss",
+      "title": "Spellbook’s June Product Spotlight",
+      "url": "https://spellbook.com/blog/spellbooks-june-product-spotlight",
+      "published": "2026-09-10T13:25:16Z",
+      "snippet": "",
+      "hash": "sha1:ac6944fb06f4a662"
+    },
+    {
+      "source": "spellbook",
+      "source_type": "rss",
+      "title": "Introducing Autonomous Contract Management",
+      "url": "https://spellbook.com/blog/introducing-acm",
+      "published": "2026-09-10T13:25:16Z",
+      "snippet": "Spellbook started as the copilot for lawyers. ACM is our next chapter, the infrastructure that puts your contracts on rails.",
+      "hash": "sha1:b7d58efcfc8956cb"
+    },
+    {
+      "source": "spellbook",
+      "source_type": "rss",
+      "title": "Spellbook Labs Report: Humans Hallucinate Too",
+      "url": "https://spellbook.com/blog/humans-hallucinate-too",
+      "published": "2026-09-10T13:25:16Z",
+      "snippet": "",
+      "hash": "sha1:46520c5381904691"
+    },
+    {
+      "source": "spellbook",
+      "source_type": "rss",
+      "title": "Introducing the Spellbook Legal Fellowship Fund",
+      "url": "https://spellbook.com/blog/introducing-the-spellbook-legal-fellowship-fund",
+      "published": "2026-09-10T13:25:16Z",
+      "snippet": "",
+      "hash": "sha1:27f9643d5486d494"
+    },
+    {
+      "source": "spellbook",
+      "source_type": "rss",
+      "title": "Spellbook’s May Product Spotlight",
+      "url": "https://spellbook.com/blog/spellbooks-may-product-spotlight",
+      "published": "2026-09-10T13:25:16Z",
+      "snippet": "",
+      "hash": "sha1:bc15929ac148b796"
+    },
+    {
+      "source": "spellbook",
+      "source_type": "rss",
+      "title": "Introducing Proofread",
+      "url": "https://spellbook.com/blog/introducing-proofread",
+      "published": "2026-09-10T13:25:16Z",
+      "snippet": "",
+      "hash": "sha1:947be695c1d6b268"
+    },
+    {
+      "source": "spellbook",
+      "source_type": "rss",
+      "title": "Spellbook's April Product Spotlight",
+      "url": "https://spellbook.com/blog/the-revision-spellbooks-april-product-release",
+      "published": "2026-09-10T13:25:16Z",
+      "snippet": "",
+      "hash": "sha1:f3368ac3f6c26744"
+    },
+    {
+      "source": "spellbook",
+      "source_type": "rss",
+      "title": "Introducing The Legal AI Adoption Toolkit",
+      "url": "https://spellbook.com/blog/introducing-the-legal-ai-adoption-toolkit",
+      "published": "2026-09-10T13:25:16Z",
+      "snippet": "",
+      "hash": "sha1:5f44a708f157bcea"
+    },
+    {
+      "source": "spellbook",
+      "source_type": "rss",
+      "title": "Using Spellbook: Drafting Contract Provisions Effectively",
+      "url": "https://spellbook.com/blog/how-i-use-spellbook-drafting-contract-provisions",
+      "published": "2026-09-02T12:46:14Z",
+      "snippet": "Learn how lawyer Chris Brown uses Spellbook to draft IP clauses, add boilerplate, and boost productivity with AI-powered contract language suggestions",
+      "hash": "sha1:9ce433def9728a7b"
+    },
+    {
+      "source": "spellbook",
+      "source_type": "rss",
+      "title": "Using Spellbook: Crafting Email Contract Summaries",
+      "url": "https://spellbook.com/blog/how-i-use-spellbook-creating-contract-summaries-for-emails",
+      "published": "2026-09-02T12:45:01Z",
+      "snippet": "Discover how startup lawyer Chris Brown utilizes Spellbook to efficiently summarize contracts for clients, enhancing legal services and client satisfaction.",
+      "hash": "sha1:2ec5a097839b81e0"
+    },
+    {
+      "source": "spellbook",
+      "source_type": "rss",
+      "title": "Introducing Spellbook’s iManage integration",
+      "url": "https://spellbook.com/blog/introducing-spellbooks-imanage-integration",
+      "published": "2026-08-25T15:11:18Z",
+      "snippet": "",
+      "hash": "sha1:4173da5f28473844"
+    },
+    {
+      "source": "spellbook",
+      "source_type": "rss",
+      "title": "Introducing Spellbook's 2026 State of Contracts Report",
+      "url": "https://spellbook.com/blog/2026-state-of-contracts-report",
+      "published": "2026-08-25T14:42:37Z",
+      "snippet": "",
+      "hash": "sha1:44cb46ad0fa5248e"
+    },
+    {
+      "source": "rbi_circulars",
+      "source_type": "page",
+      "title": "Reserve Bank of India (Priority Sector Lending – Targets and Classification) Third Amendment Directions, 2026",
+      "url": "NotificationUser.aspx?Id=13698&Mode=0",
+      "published": null,
+      "snippet": "Reserve Bank of India (Priority Sector Lending – Targets and Classification) Third Amendment Directions, 2026",
+      "hash": "sha1:b68d238b23bd11ab"
+    },
+    {
+      "source": "rbi_circulars",
+      "source_type": "page",
+      "title": "Reserve Bank of India (Local Area Banks – Cash Reserve Ratio and Statutory Liquidity Ratio) Second Amendment Directions, 2026",
+      "url": "NotificationUser.aspx?Id=13697&Mode=0",
+      "published": null,
+      "snippet": "Reserve Bank of India (Local Area Banks – Cash Reserve Ratio and Statutory Liquidity Ratio) Second Amendment Directions, 2026",
+      "hash": "sha1:a91fa5ba8b8f3553"
+    },
+    {
+      "source": "rbi_circulars",
+      "source_type": "page",
+      "title": "Review of Circulars issued under Foreign Exchange Management Act, 1999 (FEMA)",
+      "url": "NotificationUser.aspx?Id=13696&Mode=0",
+      "published": null,
+      "snippet": "Review of Circulars issued under Foreign Exchange Management Act, 1999 (FEMA)",
+      "hash": "sha1:9396cee731d9da0e"
+    },
+    {
+      "source": "rbi_circulars",
+      "source_type": "page",
+      "title": "Implementation of Section 51A of UAPA, 1967: Updates to UNSC’s 1267/ 1989 ISIL (Da'esh) & Al-Qaida Sanctions List: Amendment of 2 Entries",
+      "url": "NotificationUser.aspx?Id=13695&Mode=0",
+      "published": null,
+      "snippet": "Implementation of Section 51A of UAPA, 1967: Updates to UNSC’s 1267/ 1989 ISIL (Da'esh) & Al-Qaida Sanctions List: Amendment of 2 Entries",
+      "hash": "sha1:fb621802675a08ac"
+    },
+    {
+      "source": "rbi_circulars",
+      "source_type": "page",
+      "title": "Implementation of Section 51A of UAPA, 1967: Updates to UNSC’s 1988 (2011) Taliban Sanctions List: Amendment of 01 Entry:",
+      "url": "NotificationUser.aspx?Id=13694&Mode=0",
+      "published": null,
+      "snippet": "Implementation of Section 51A of UAPA, 1967: Updates to UNSC’s 1988 (2011) Taliban Sanctions List: Amendment of 01 Entry:",
+      "hash": "sha1:cfdb4462f38c0919"
+    },
+    {
+      "source": "rbi_circulars",
+      "source_type": "page",
+      "title": "Deposits and Accounts – Accounts of Non-resident banks",
+      "url": "NotificationUser.aspx?Id=13693&Mode=0",
+      "published": null,
+      "snippet": "Deposits and Accounts – Accounts of Non-resident banks",
+      "hash": "sha1:4b34a348d7116f45"
+    },
+    {
+      "source": "rbi_circulars",
+      "source_type": "page",
+      "title": "Relief Measures in Areas Affected by Natural Calamities - Reporting through Centralised Information Management System (CIMS) Portal - Introduction of Half-Yearly Return",
+      "url": "NotificationUser.aspx?Id=13692&Mode=0",
+      "published": null,
+      "snippet": "Relief Measures in Areas Affected by Natural Calamities - Reporting through Centralised Information Management System (CIMS) Portal - Introduction of Half-Yearly Return",
+      "hash": "sha1:e7a66cdc898c14ad"
+    },
+    {
+      "source": "rbi_circulars",
+      "source_type": "page",
+      "title": "Reserve Bank of India (Urban Co-operative Banks – Classification, Valuation, and Operation of Investment Portfolio) Second Amendment Directions, 2026",
+      "url": "NotificationUser.aspx?Id=13691&Mode=0",
+      "published": null,
+      "snippet": "Reserve Bank of India (Urban Co-operative Banks – Classification, Valuation, and Operation of Investment Portfolio) Second Amendment Directions, 2026",
+      "hash": "sha1:498d8103016fe1de"
+    }
+  ]
+}
