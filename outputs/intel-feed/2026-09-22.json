@@ -1,0 +1,212 @@
+{
+  "run_at": "2026-09-22T07:12:54Z",
+  "sources_polled": 13,
+  "sources_failed": [
+    "harvey",
+    "jhana",
+    "casetext_cocounsel",
+    "lexoo",
+    "meity_dpdp",
+    "startup_india_seed"
+  ],
+  "entries": [
+    {
+      "source": "spellbook",
+      "source_type": "rss",
+      "title": "Spellbook's March Product Spotlight",
+      "url": "https://spellbook.com/blog/whats-new-in-spellbook-march-2026",
+      "published": "2026-09-18T19:58:14Z",
+      "snippet": "",
+      "hash": "sha1:cc191ff8c872561d"
+    },
+    {
+      "source": "spellbook",
+      "source_type": "rss",
+      "title": "Introducing Comprehensive Reviews",
+      "url": "https://spellbook.com/blog/introducing-comprehensive-reviews",
+      "published": "2026-09-17T14:18:39Z",
+      "snippet": "",
+      "hash": "sha1:5b938af2df6f4885"
+    },
+    {
+      "source": "spellbook",
+      "source_type": "rss",
+      "title": "Spellbook's August Product Spotlight",
+      "url": "https://spellbook.com/blog/spellbooks-august-product-spotlight",
+      "published": "2026-09-15T14:45:06Z",
+      "snippet": "",
+      "hash": "sha1:c26094861a905e3f"
+    },
+    {
+      "source": "spellbook",
+      "source_type": "rss",
+      "title": "Meet Anthony Ross, Spellbook’s First Legal Fellow",
+      "url": "https://spellbook.com/blog/spellbooks-first-legal-fellow",
+      "published": "2026-09-10T13:25:16Z",
+      "snippet": "Meet Anthony Ross, the Spellbook Fellow Rethinking M&A Disclosure Schedules",
+      "hash": "sha1:54c3386920d54a65"
+    },
+    {
+      "source": "spellbook",
+      "source_type": "rss",
+      "title": "Introducing Spellbook for Google Docs",
+      "url": "https://spellbook.com/blog/introducing-spellbook-for-google-docs",
+      "published": "2026-09-10T13:25:16Z",
+      "snippet": "",
+      "hash": "sha1:05a177e3d888e0db"
+    },
+    {
+      "source": "spellbook",
+      "source_type": "rss",
+      "title": "Spellbook’s June Product Spotlight",
+      "url": "https://spellbook.com/blog/spellbooks-june-product-spotlight",
+      "published": "2026-09-10T13:25:16Z",
+      "snippet": "",
+      "hash": "sha1:ac6944fb06f4a662"
+    },
+    {
+      "source": "spellbook",
+      "source_type": "rss",
+      "title": "Introducing Autonomous Contract Management",
+      "url": "https://spellbook.com/blog/introducing-acm",
+      "published": "2026-09-10T13:25:16Z",
+      "snippet": "Spellbook started as the copilot for lawyers. ACM is our next chapter, the infrastructure that puts your contracts on rails.",
+      "hash": "sha1:b7d58efcfc8956cb"
+    },
+    {
+      "source": "spellbook",
+      "source_type": "rss",
+      "title": "Spellbook Labs Report: Humans Hallucinate Too",
+      "url": "https://spellbook.com/blog/humans-hallucinate-too",
+      "published": "2026-09-10T13:25:16Z",
+      "snippet": "",
+      "hash": "sha1:46520c5381904691"
+    },
+    {
+      "source": "spellbook",
+      "source_type": "rss",
+      "title": "Introducing the Spellbook Legal Fellowship Fund",
+      "url": "https://spellbook.com/blog/introducing-the-spellbook-legal-fellowship-fund",
+      "published": "2026-09-10T13:25:16Z",
+      "snippet": "",
+      "hash": "sha1:27f9643d5486d494"
+    },
+    {
+      "source": "spellbook",
+      "source_type": "rss",
+      "title": "Spellbook’s May Product Spotlight",
+      "url": "https://spellbook.com/blog/spellbooks-may-product-spotlight",
+      "published": "2026-09-10T13:25:16Z",
+      "snippet": "",
+      "hash": "sha1:bc15929ac148b796"
+    },
+    {
+      "source": "spellbook",
+      "source_type": "rss",
+      "title": "Introducing Proofread",
+      "url": "https://spellbook.com/blog/introducing-proofread",
+      "published": "2026-09-10T13:25:16Z",
+      "snippet": "",
+      "hash": "sha1:947be695c1d6b268"
+    },
+    {
+      "source": "spellbook",
+      "source_type": "rss",
+      "title": "Spellbook's April Product Spotlight",
+      "url": "https://spellbook.com/blog/the-revision-spellbooks-april-product-release",
+      "published": "2026-09-10T13:25:16Z",
+      "snippet": "",
+      "hash": "sha1:f3368ac3f6c26744"
+    },
+    {
+      "source": "spellbook",
+      "source_type": "rss",
+      "title": "Introducing The Legal AI Adoption Toolkit",
+      "url": "https://spellbook.com/blog/introducing-the-legal-ai-adoption-toolkit",
+      "published": "2026-09-10T13:25:16Z",
+      "snippet": "",
+      "hash": "sha1:5f44a708f157bcea"
+    },
+    {
+      "source": "spellbook",
+      "source_type": "rss",
+      "title": "Using Spellbook: Drafting Contract Provisions Effectively",
+      "url": "https://spellbook.com/blog/how-i-use-spellbook-drafting-contract-provisions",
+      "published": "2026-09-02T12:46:14Z",
+      "snippet": "Learn how lawyer Chris Brown uses Spellbook to draft IP clauses, add boilerplate, and boost productivity with AI-powered contract language suggestions",
+      "hash": "sha1:9ce433def9728a7b"
+    },
+    {
+      "source": "spellbook",
+      "source_type": "rss",
+      "title": "Using Spellbook: Crafting Email Contract Summaries",
+      "url": "https://spellbook.com/blog/how-i-use-spellbook-creating-contract-summaries-for-emails",
+      "published": "2026-09-02T12:45:01Z",
+      "snippet": "Discover how startup lawyer Chris Brown utilizes Spellbook to efficiently summarize contracts for clients, enhancing legal services and client satisfaction.",
+      "hash": "sha1:2ec5a097839b81e0"
+    },
+    {
+      "source": "rbi_circulars",
+      "source_type": "page",
+      "title": "Reserve Bank of India (Rural Co-operative Banks – Know Your Customer) Amendment Directions, 2026",
+      "url": "NotificationUser.aspx?Id=13704&Mode=0",
+      "published": null,
+      "snippet": "Reserve Bank of India (Rural Co-operative Banks – Know Your Customer) Amendment Directions, 2026",
+      "hash": "sha1:fb3bde7cb365e749"
+    },
+    {
+      "source": "rbi_circulars",
+      "source_type": "page",
+      "title": "Reserve Bank of India (Urban Co-operative Banks – Know Your Customer) Amendment Directions, 2026",
+      "url": "NotificationUser.aspx?Id=13703&Mode=0",
+      "published": null,
+      "snippet": "Reserve Bank of India (Urban Co-operative Banks – Know Your Customer) Amendment Directions, 2026",
+      "hash": "sha1:2bf2faddfb0a7f10"
+    },
+    {
+      "source": "rbi_circulars",
+      "source_type": "page",
+      "title": "Reserve Bank of India (Regional Rural Banks – Know Your Customer) Amendment Directions, 2026",
+      "url": "NotificationUser.aspx?Id=13702&Mode=0",
+      "published": null,
+      "snippet": "Reserve Bank of India (Regional Rural Banks – Know Your Customer) Amendment Directions, 2026",
+      "hash": "sha1:03389ec5aa2a140f"
+    },
+    {
+      "source": "rbi_circulars",
+      "source_type": "page",
+      "title": "Reserve Bank of India (Local Area Banks – Know Your Customer) Amendment Directions, 2026",
+      "url": "NotificationUser.aspx?Id=13701&Mode=0",
+      "published": null,
+      "snippet": "Reserve Bank of India (Local Area Banks – Know Your Customer) Amendment Directions, 2026",
+      "hash": "sha1:73476e659302941f"
+    },
+    {
+      "source": "rbi_circulars",
+      "source_type": "page",
+      "title": "Reserve Bank of India (Small Finance Banks – Know Your Customer) Amendment Directions, 2026",
+      "url": "NotificationUser.aspx?Id=13700&Mode=0",
+      "published": null,
+      "snippet": "Reserve Bank of India (Small Finance Banks – Know Your Customer) Amendment Directions, 2026",
+      "hash": "sha1:b9991b6fee33e761"
+    },
+    {
+      "source": "rbi_circulars",
+      "source_type": "page",
+      "title": "Reserve Bank of India (Commercial Banks – Know Your Customer) Amendment Directions, 2026",
+      "url": "NotificationUser.aspx?Id=13699&Mode=0",
+      "published": null,
+      "snippet": "Reserve Bank of India (Commercial Banks – Know Your Customer) Amendment Directions, 2026",
+      "hash": "sha1:b9ae7186a2fc0d3f"
+    },
+    {
+      "source": "rbi_circulars",
+      "source_type": "page",
+      "title": "Reserve Bank of India (Priority Sector Lending – Targets and Classification) Third Amendment Directions, 2026",
+      "url": "NotificationUser.aspx?Id=13698&Mode=0",
+      "published": null,
+      "snippet": "Reserve Bank of India (Priority Sector Lending – Targets and Classification) Third Amendment Directions, 2026",
+      "hash": "sha1:b68d238b23bd11ab"
+    }
+  ]
+}
