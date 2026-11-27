@@ -1,0 +1,220 @@
+{
+  "run_at": "2026-11-27T10:27:42Z",
+  "sources_polled": 13,
+  "sources_failed": [
+    "harvey",
+    "jhana",
+    "casetext_cocounsel",
+    "meity_dpdp",
+    "startup_india_seed"
+  ],
+  "entries": [
+    {
+      "source": "spellbook",
+      "source_type": "rss",
+      "title": "Introducing Spellbook's Docusign Integration",
+      "url": "https://spellbook.com/blog/introducing-spellbooks-docusign-integration",
+      "published": "2026-11-24T16:05:21Z",
+      "snippet": "",
+      "hash": "sha1:9c8f46b84dcae0c7"
+    },
+    {
+      "source": "spellbook",
+      "source_type": "rss",
+      "title": "Spellbook's October Product Spotlight",
+      "url": "https://spellbook.com/blog/spellbooks-october-product-spotlight",
+      "published": "2026-11-06T18:33:22Z",
+      "snippet": "",
+      "hash": "sha1:5ec61c5f0dbe4f05"
+    },
+    {
+      "source": "spellbook",
+      "source_type": "rss",
+      "title": "Autonomous Contract Management Is Now Generally Available",
+      "url": "https://spellbook.com/blog/autonomous-contract-management-is-generally-available",
+      "published": "2026-10-12T17:56:22Z",
+      "snippet": "",
+      "hash": "sha1:f4a01dd47b1d1efc"
+    },
+    {
+      "source": "spellbook",
+      "source_type": "rss",
+      "title": "Spellbook's September Product Spotlight",
+      "url": "https://spellbook.com/blog/spellbooks-september-product-spotlight",
+      "published": "2026-10-09T14:19:31Z",
+      "snippet": "",
+      "hash": "sha1:adb7444ac8a8d4eb"
+    },
+    {
+      "source": "spellbook",
+      "source_type": "rss",
+      "title": "Spellbook's March Product Spotlight",
+      "url": "https://spellbook.com/blog/whats-new-in-spellbook-march-2026",
+      "published": "2026-09-18T19:58:14Z",
+      "snippet": "",
+      "hash": "sha1:cc191ff8c872561d"
+    },
+    {
+      "source": "spellbook",
+      "source_type": "rss",
+      "title": "Introducing Comprehensive Reviews",
+      "url": "https://spellbook.com/blog/introducing-comprehensive-reviews",
+      "published": "2026-09-17T14:18:39Z",
+      "snippet": "",
+      "hash": "sha1:5b938af2df6f4885"
+    },
+    {
+      "source": "spellbook",
+      "source_type": "rss",
+      "title": "Spellbook's August Product Spotlight",
+      "url": "https://spellbook.com/blog/spellbooks-august-product-spotlight",
+      "published": "2026-09-15T14:45:06Z",
+      "snippet": "",
+      "hash": "sha1:c26094861a905e3f"
+    },
+    {
+      "source": "spellbook",
+      "source_type": "rss",
+      "title": "Meet Anthony Ross, Spellbook’s First Legal Fellow",
+      "url": "https://spellbook.com/blog/spellbooks-first-legal-fellow",
+      "published": "2026-09-10T13:25:16Z",
+      "snippet": "Meet Anthony Ross, the Spellbook Fellow Rethinking M&A Disclosure Schedules",
+      "hash": "sha1:54c3386920d54a65"
+    },
+    {
+      "source": "spellbook",
+      "source_type": "rss",
+      "title": "Introducing Spellbook for Google Docs",
+      "url": "https://spellbook.com/blog/introducing-spellbook-for-google-docs",
+      "published": "2026-09-10T13:25:16Z",
+      "snippet": "",
+      "hash": "sha1:05a177e3d888e0db"
+    },
+    {
+      "source": "spellbook",
+      "source_type": "rss",
+      "title": "Spellbook’s June Product Spotlight",
+      "url": "https://spellbook.com/blog/spellbooks-june-product-spotlight",
+      "published": "2026-09-10T13:25:16Z",
+      "snippet": "",
+      "hash": "sha1:ac6944fb06f4a662"
+    },
+    {
+      "source": "spellbook",
+      "source_type": "rss",
+      "title": "Introducing Autonomous Contract Management",
+      "url": "https://spellbook.com/blog/introducing-acm",
+      "published": "2026-09-10T13:25:16Z",
+      "snippet": "Spellbook started as the copilot for lawyers. ACM is our next chapter, the infrastructure that puts your contracts on rails.",
+      "hash": "sha1:b7d58efcfc8956cb"
+    },
+    {
+      "source": "spellbook",
+      "source_type": "rss",
+      "title": "Spellbook Labs Report: Humans Hallucinate Too",
+      "url": "https://spellbook.com/blog/humans-hallucinate-too",
+      "published": "2026-09-10T13:25:16Z",
+      "snippet": "",
+      "hash": "sha1:46520c5381904691"
+    },
+    {
+      "source": "spellbook",
+      "source_type": "rss",
+      "title": "Introducing the Spellbook Legal Fellowship Fund",
+      "url": "https://spellbook.com/blog/introducing-the-spellbook-legal-fellowship-fund",
+      "published": "2026-09-10T13:25:16Z",
+      "snippet": "",
+      "hash": "sha1:27f9643d5486d494"
+    },
+    {
+      "source": "spellbook",
+      "source_type": "rss",
+      "title": "Spellbook’s May Product Spotlight",
+      "url": "https://spellbook.com/blog/spellbooks-may-product-spotlight",
+      "published": "2026-09-10T13:25:16Z",
+      "snippet": "",
+      "hash": "sha1:bc15929ac148b796"
+    },
+    {
+      "source": "spellbook",
+      "source_type": "rss",
+      "title": "Introducing Proofread",
+      "url": "https://spellbook.com/blog/introducing-proofread",
+      "published": "2026-09-10T13:25:16Z",
+      "snippet": "",
+      "hash": "sha1:947be695c1d6b268"
+    },
+    {
+      "source": "rbi_circulars",
+      "source_type": "page",
+      "title": "Implementation of Section 51A of UAPA, 1967: Updates to UNSC’s 1267/ 1989 ISIL (Da'esh) & Al-Qaida Sanctions List: Amendment of 01 Entry",
+      "url": "NotificationUser.aspx?Id=13758&Mode=0",
+      "published": null,
+      "snippet": "Implementation of Section 51A of UAPA, 1967: Updates to UNSC’s 1267/ 1989 ISIL (Da'esh) & Al-Qaida Sanctions List: Amendment of 01 Entry",
+      "hash": "sha1:1cc33198b37cb80e"
+    },
+    {
+      "source": "rbi_circulars",
+      "source_type": "page",
+      "title": "Implementation of Section 51A of UAPA, 1967: Updates to UNSC’s 1267/ 1989 ISIL (Da'esh) & Al-Qaida Sanctions List: Amendment of 81 entries",
+      "url": "NotificationUser.aspx?Id=13757&Mode=0",
+      "published": null,
+      "snippet": "Implementation of Section 51A of UAPA, 1967: Updates to UNSC’s 1267/ 1989 ISIL (Da'esh) & Al-Qaida Sanctions List: Amendment of 81 entries",
+      "hash": "sha1:02c30d994702ab9b"
+    },
+    {
+      "source": "rbi_circulars",
+      "source_type": "page",
+      "title": "Reserve Bank of India (All India Financial Institutions - Securitisation Transactions) Amendment Directions, 2026",
+      "url": "NotificationUser.aspx?Id=13756&Mode=0",
+      "published": null,
+      "snippet": "Reserve Bank of India (All India Financial Institutions - Securitisation Transactions) Amendment Directions, 2026",
+      "hash": "sha1:05ed9c7592a1c7f5"
+    },
+    {
+      "source": "rbi_circulars",
+      "source_type": "page",
+      "title": "Reserve Bank of India (Non-Banking Financial Companies - Securitisation Transactions) Amendment Directions, 2026",
+      "url": "NotificationUser.aspx?Id=13755&Mode=0",
+      "published": null,
+      "snippet": "Reserve Bank of India (Non-Banking Financial Companies - Securitisation Transactions) Amendment Directions, 2026",
+      "hash": "sha1:075e0acc1d045035"
+    },
+    {
+      "source": "rbi_circulars",
+      "source_type": "page",
+      "title": "Reserve Bank of India (Small Finance Banks - Securitisation Transactions) Amendment Directions, 2026",
+      "url": "NotificationUser.aspx?Id=13754&Mode=0",
+      "published": null,
+      "snippet": "Reserve Bank of India (Small Finance Banks - Securitisation Transactions) Amendment Directions, 2026",
+      "hash": "sha1:ca630fc0c0dd1810"
+    },
+    {
+      "source": "rbi_circulars",
+      "source_type": "page",
+      "title": "Reserve Bank of India (Commercial Banks - Securitisation Transactions) Amendment Directions, 2026",
+      "url": "NotificationUser.aspx?Id=13753&Mode=0",
+      "published": null,
+      "snippet": "Reserve Bank of India (Commercial Banks - Securitisation Transactions) Amendment Directions, 2026",
+      "hash": "sha1:716a15b710368e3e"
+    },
+    {
+      "source": "rbi_circulars",
+      "source_type": "page",
+      "title": "Reserve Bank of India (Domestic Money Transfer) Directions, 2026",
+      "url": "NotificationUser.aspx?Id=13752&Mode=0",
+      "published": null,
+      "snippet": "Reserve Bank of India (Domestic Money Transfer) Directions, 2026",
+      "hash": "sha1:c11115b42bbc52ef"
+    },
+    {
+      "source": "rbi_circulars",
+      "source_type": "page",
+      "title": "Master Directions on Cyber Resilience and Digital Payment Security Controls for non-bank Payment System Operators",
+      "url": "NotificationUser.aspx?Id=13751&Mode=0",
+      "published": null,
+      "snippet": "Master Directions on Cyber Resilience and Digital Payment Security Controls for non-bank Payment System Operators",
+      "hash": "sha1:bd15dbcc3a73a40e"
+    }
+  ]
+}
